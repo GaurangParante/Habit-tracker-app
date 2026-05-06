@@ -24,6 +24,8 @@ DerivedData
 
 # Android/IntelliJ
 #
+.gradle/
+.gradle-project-cache/
 build/
 .idea
 .gradle
