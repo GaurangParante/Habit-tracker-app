@@ -1,0 +1,2294 @@
+info Welcome to React Native v0.74
+info Starting dev server on port 8081...
+
+                        ▒▒▓▓▓▓▒▒
+                     ▒▓▓▓▒▒░░▒▒▓▓▓▒
+                  ▒▓▓▓▓░░░▒▒▒▒░░░▓▓▓▓▒
+                 ▓▓▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▓▓
+                 ▓▓░░░░░▒▓▓▓▓▓▓▒░░░░░▓▓
+                 ▓▓░░▓▓▒░░░▒▒░░░▒▓▒░░▓▓
+                 ▓▓░░▓▓▓▓▓▒▒▒▒▓▓▓▓▒░░▓▓
+                 ▓▓░░▓▓▓▓▓▓▓▓▓▓▓▓▓▒░░▓▓
+                 ▓▓▒░░▒▒▓▓▓▓▓▓▓▓▒░░░▒▓▓
+                  ▒▓▓▓▒░░░▒▓▓▒░░░▒▓▓▓▒
+                     ▒▓▓▓▒░░░░▒▓▓▓▒
+                        ▒▒▓▓▓▓▒▒
+
+
+warning: the transform cache was reset.
+                Welcome to Metro v0.80.12
+              Fast - Scalable - Integrated
+
+
+info React Native v0.85.3 is now available (your project is running on v0.74.5).
+info Changelog: https://github.com/facebook/react-native/releases/tag/v0.85.3
+info Diff: https://react-native-community.github.io/upgrade-helper/?from=0.74.5
+info For more info, check out "https://reactnative.dev/docs/upgrading?os=windows".
+info Dev server ready
+ BUNDLE  ./index.js 
+
+ BUNDLE  ./index.js 
+
+ LOG  Running "HabitTrackerNative" with {"rootTag":11}
+ WARN  Tried to use the icon 'cog-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'cog-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'cog-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'plus' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'pencil-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'delete-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'pencil-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'delete-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'pencil-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'delete-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'plus' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'cog-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'cog-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'plus' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'pencil-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'delete-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'pencil-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'delete-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'plus' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'pencil-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'delete-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'pencil-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'delete-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'plus' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'pencil-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'delete-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'pencil-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'delete-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'plus' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+info Opening D:\wamp\www\personal\Habit-tracker-app\node_modules\react-native\Libraries\Renderer\implementations\ReactNativeRenderer-dev.js with code
+info 
+ Keep these instructions in mind: 
+  When you see Red Box with stack trace, you can click any 
+  stack frame to jump to the source file. The packager will launch your 
+  editor of choice. It will first look at REACT_EDITOR environment 
+  variable, then at EDITOR.
+  To set it up, you can run something like "SETX REACT_EDITOR code"
+  which will set the environment variable in future shells,
+  then "SET REACTEDITOR=code" to set it in the current shell
+
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'pencil-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'delete-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'pencil-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'delete-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'plus' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'pencil-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'delete-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'pencil-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'delete-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'plus' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'pencil-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'delete-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'pencil-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'delete-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'plus' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'cog-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'cog-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'pencil-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'delete-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'pencil-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'delete-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'pencil-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'delete-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'plus' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'pencil-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'delete-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'pencil-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'delete-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'pencil-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'delete-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'plus' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'cog-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'pencil-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'delete-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'pencil-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'delete-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'plus' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'pencil-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ BUNDLE  ./index.js 
+
+ LOG  Running "HabitTrackerNative" with {"rootTag":11}
+ WARN  Tried to use the icon 'cog-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'cog-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+info Opening D:\wamp\www\personal\Habit-tracker-app\node_modules\react-native-paper\src\components\MaterialCommunityIcon.tsx with code
+info 
+ Keep these instructions in mind: 
+  When you see Red Box with stack trace, you can click any 
+  stack frame to jump to the source file. The packager will launch your 
+  editor of choice. It will first look at REACT_EDITOR environment 
+  variable, then at EDITOR.
+  To set it up, you can run something like "SETX REACT_EDITOR code"
+  which will set the environment variable in future shells,
+  then "SET REACTEDITOR=code" to set it in the current shell
+
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-marked' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-marked' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-marked' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-marked' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-marked' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-marked' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-marked' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-marked' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-marked' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-marked' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-marked' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-marked' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-marked' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-marked' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-marked' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ BUNDLE  ./index.js 
+
+ LOG  Running "HabitTrackerNative" with {"rootTag":11}
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ WARN  Tried to use the icon 'checkbox-blank-outline' in a component from 'react-native-paper', but none of the required icon libraries are installed. To fix this, please install one of the following:
+- @expo/vector-icons
+- @react-native-vector-icons/material-design-icons
+- react-native-vector-icons
+
+You can also use another method to specify icon: https://callstack.github.io/react-native-paper/docs/guides/icons [Component Stack]
+ BUNDLE  ./index.js 
+
+ LOG  Running "HabitTrackerNative" with {"rootTag":11}
+ BUNDLE  ./index.js 
+
+ LOG  Running "HabitTrackerNative" with {"rootTag":11}
+ BUNDLE  ./index.js 
+
+ LOG  Running "HabitTrackerNative" with {"rootTag":11}
+ BUNDLE  ./index.js 
+
+ LOG  Running "HabitTrackerNative" with {"rootTag":11}
+error: Error: Unable to resolve module ./specs/NativeModuleDatePicker from D:\wamp\www\personal\Habit-tracker-app\node_modules\@react-native-community\datetimepicker\src\datepicker.android.js: 
+
+None of these files exist:
+  * node_modules\@react-native-community\datetimepicker\src\specs\NativeModuleDatePicker(.android.js|.native.js|.js|.android.jsx|.native.jsx|.jsx|.android.json|.native.json|.json|.android.ts|.native.ts|.ts|.android.tsx|.native.tsx|.tsx)
+  * node_modules\@react-native-community\datetimepicker\src\specs\NativeModuleDatePicker
+  10 | import {DATE_SET_ACTION, DISMISS_ACTION, ANDROID_DISPLAY} from './constants';
+  11 | import {toMilliseconds} from './utils';
+> 12 | import RNDatePickerAndroid from './specs/NativeModuleDatePicker';
+     |                                  ^
+  13 | import type {DatePickerOptions, DateTimePickerResult} from './types';
+  14 |
+  15 | export default class DatePickerAndroid {
+    at ModuleResolver.resolveDependency (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\node-haste\DependencyGraph\ModuleResolution.js:112:15)
+    at DependencyGraph.resolveDependency (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\node-haste\DependencyGraph.js:232:43)
+    at D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\lib\transformHelpers.js:156:21
+    at resolveDependencies (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\DeltaBundler\buildSubgraph.js:42:25)
+    at visit (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\DeltaBundler\buildSubgraph.js:83:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Promise.all (index 0)
+    at async visit (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\DeltaBundler\buildSubgraph.js:92:5)
+    at async Promise.all (index 0)
+    at async visit (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\DeltaBundler\buildSubgraph.js:92:5)
+ ERROR  [Error: undefined Unable to resolve module ./specs/NativeModuleDatePicker from D:\wamp\www\personal\Habit-tracker-app\node_modules\@react-native-community\datetimepicker\src\datepicker.android.js: 
+
+None of these files exist:
+  * node_modules\@react-native-community\datetimepicker\src\specs\NativeModuleDatePicker(.android.js|.native.js|.js|.android.jsx|.native.jsx|.jsx|.android.json|.native.json|.json|.android.ts|.native.ts|.ts|.android.tsx|.native.tsx|.tsx)
+  * node_modules\@react-native-community\datetimepicker\src\specs\NativeModuleDatePicker
+[0m [90m 10 |[39m [36mimport[39m {[33mDATE_SET_ACTION[39m[33m,[39m [33mDISMISS_ACTION[39m[33m,[39m [33mANDROID_DISPLAY[39m} [36mfrom[39m [32m'./constants'[39m[33m;[39m
+ [90m 11 |[39m [36mimport[39m {toMilliseconds} [36mfrom[39m [32m'./utils'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 12 |[39m [36mimport[39m [33mRNDatePickerAndroid[39m [36mfrom[39m [32m'./specs/NativeModuleDatePicker'[39m[33m;[39m
+ [90m    |[39m                                  [31m[1m^[22m[39m
+ [90m 13 |[39m [36mimport[39m type {[33mDatePickerOptions[39m[33m,[39m [33mDateTimePickerResult[39m} [36mfrom[39m [32m'./types'[39m[33m;[39m
+ [90m 14 |[39m
+ [90m 15 |[39m [36mexport[39m [36mdefault[39m [36mclass[39m [33mDatePickerAndroid[39m {[0m]
+error: Error: Unable to resolve module ./specs/NativeModuleDatePicker from D:\wamp\www\personal\Habit-tracker-app\node_modules\@react-native-community\datetimepicker\src\datepicker.android.js: 
+
+None of these files exist:
+  * node_modules\@react-native-community\datetimepicker\src\specs\NativeModuleDatePicker(.android.js|.native.js|.js|.android.jsx|.native.jsx|.jsx|.android.json|.native.json|.json|.android.ts|.native.ts|.ts|.android.tsx|.native.tsx|.tsx)
+  * node_modules\@react-native-community\datetimepicker\src\specs\NativeModuleDatePicker
+  10 | import {DATE_SET_ACTION, DISMISS_ACTION, ANDROID_DISPLAY} from './constants';
+  11 | import {toMilliseconds} from './utils';
+> 12 | import RNDatePickerAndroid from './specs/NativeModuleDatePicker';
+     |                                  ^
+  13 | import type {DatePickerOptions, DateTimePickerResult} from './types';
+  14 |
+  15 | export default class DatePickerAndroid {
+    at ModuleResolver.resolveDependency (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\node-haste\DependencyGraph\ModuleResolution.js:112:15)
+    at DependencyGraph.resolveDependency (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\node-haste\DependencyGraph.js:232:43)
+    at D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\lib\transformHelpers.js:156:21
+    at resolveDependencies (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\DeltaBundler\buildSubgraph.js:42:25)
+    at visit (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\DeltaBundler\buildSubgraph.js:83:30)
+    at async Promise.all (index 0)
+    at async visit (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\DeltaBundler\buildSubgraph.js:92:5)
+    at async Promise.all (index 0)
+    at async visit (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\DeltaBundler\buildSubgraph.js:92:5)
+    at async Promise.all (index 0)
+error: Error: Unable to resolve module ./specs/NativeModuleDatePicker from D:\wamp\www\personal\Habit-tracker-app\node_modules\@react-native-community\datetimepicker\src\datepicker.android.js: 
+
+None of these files exist:
+  * node_modules\@react-native-community\datetimepicker\src\specs\NativeModuleDatePicker(.android.js|.native.js|.js|.android.jsx|.native.jsx|.jsx|.android.json|.native.json|.json|.android.ts|.native.ts|.ts|.android.tsx|.native.tsx|.tsx)
+  * node_modules\@react-native-community\datetimepicker\src\specs\NativeModuleDatePicker
+  10 | import {DATE_SET_ACTION, DISMISS_ACTION, ANDROID_DISPLAY} from './constants';
+  11 | import {toMilliseconds} from './utils';
+> 12 | import RNDatePickerAndroid from './specs/NativeModuleDatePicker';
+     |                                  ^
+  13 | import type {DatePickerOptions, DateTimePickerResult} from './types';
+  14 |
+  15 | export default class DatePickerAndroid {
+    at ModuleResolver.resolveDependency (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\node-haste\DependencyGraph\ModuleResolution.js:112:15)
+    at DependencyGraph.resolveDependency (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\node-haste\DependencyGraph.js:232:43)
+    at D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\lib\transformHelpers.js:156:21
+    at resolveDependencies (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\DeltaBundler\buildSubgraph.js:42:25)
+    at visit (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\DeltaBundler\buildSubgraph.js:83:30)
+    at async Promise.all (index 0)
+    at async visit (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\DeltaBundler\buildSubgraph.js:92:5)
+    at async Promise.all (index 0)
+    at async visit (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\DeltaBundler\buildSubgraph.js:92:5)
+    at async Promise.all (index 0)
+error: Error: Unable to resolve module ./specs/NativeModuleDatePicker from D:\wamp\www\personal\Habit-tracker-app\node_modules\@react-native-community\datetimepicker\src\datepicker.android.js: 
+
+None of these files exist:
+  * node_modules\@react-native-community\datetimepicker\src\specs\NativeModuleDatePicker(.android.js|.native.js|.js|.android.jsx|.native.jsx|.jsx|.android.json|.native.json|.json|.android.ts|.native.ts|.ts|.android.tsx|.native.tsx|.tsx)
+  * node_modules\@react-native-community\datetimepicker\src\specs\NativeModuleDatePicker
+  10 | import {DATE_SET_ACTION, DISMISS_ACTION, ANDROID_DISPLAY} from './constants';
+  11 | import {toMilliseconds} from './utils';
+> 12 | import RNDatePickerAndroid from './specs/NativeModuleDatePicker';
+     |                                  ^
+  13 | import type {DatePickerOptions, DateTimePickerResult} from './types';
+  14 |
+  15 | export default class DatePickerAndroid {
+    at ModuleResolver.resolveDependency (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\node-haste\DependencyGraph\ModuleResolution.js:112:15)
+    at DependencyGraph.resolveDependency (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\node-haste\DependencyGraph.js:232:43)
+    at D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\lib\transformHelpers.js:156:21
+    at resolveDependencies (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\DeltaBundler\buildSubgraph.js:42:25)
+    at visit (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\DeltaBundler\buildSubgraph.js:83:30)
+    at async Promise.all (index 0)
+    at async visit (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\DeltaBundler\buildSubgraph.js:92:5)
+    at async Promise.all (index 0)
+    at async visit (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\DeltaBundler\buildSubgraph.js:92:5)
+    at async Promise.all (index 0)
+ ERROR  [Error: undefined Unable to resolve module ./specs/NativeModuleDatePicker from D:\wamp\www\personal\Habit-tracker-app\node_modules\@react-native-community\datetimepicker\src\datepicker.android.js: 
+
+None of these files exist:
+  * node_modules\@react-native-community\datetimepicker\src\specs\NativeModuleDatePicker(.android.js|.native.js|.js|.android.jsx|.native.jsx|.jsx|.android.json|.native.json|.json|.android.ts|.native.ts|.ts|.android.tsx|.native.tsx|.tsx)
+  * node_modules\@react-native-community\datetimepicker\src\specs\NativeModuleDatePicker
+[0m [90m 10 |[39m [36mimport[39m {[33mDATE_SET_ACTION[39m[33m,[39m [33mDISMISS_ACTION[39m[33m,[39m [33mANDROID_DISPLAY[39m} [36mfrom[39m [32m'./constants'[39m[33m;[39m
+ [90m 11 |[39m [36mimport[39m {toMilliseconds} [36mfrom[39m [32m'./utils'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 12 |[39m [36mimport[39m [33mRNDatePickerAndroid[39m [36mfrom[39m [32m'./specs/NativeModuleDatePicker'[39m[33m;[39m
+ [90m    |[39m                                  [31m[1m^[22m[39m
+ [90m 13 |[39m [36mimport[39m type {[33mDatePickerOptions[39m[33m,[39m [33mDateTimePickerResult[39m} [36mfrom[39m [32m'./types'[39m[33m;[39m
+ [90m 14 |[39m
+ [90m 15 |[39m [36mexport[39m [36mdefault[39m [36mclass[39m [33mDatePickerAndroid[39m {[0m]
+error: Error: Unable to resolve module ./specs/NativeModuleDatePicker from D:\wamp\www\personal\Habit-tracker-app\node_modules\@react-native-community\datetimepicker\src\datepicker.android.js: 
+
+None of these files exist:
+  * node_modules\@react-native-community\datetimepicker\src\specs\NativeModuleDatePicker(.android.js|.native.js|.js|.android.jsx|.native.jsx|.jsx|.android.json|.native.json|.json|.android.ts|.native.ts|.ts|.android.tsx|.native.tsx|.tsx)
+  * node_modules\@react-native-community\datetimepicker\src\specs\NativeModuleDatePicker
+  10 | import {DATE_SET_ACTION, DISMISS_ACTION, ANDROID_DISPLAY} from './constants';
+  11 | import {toMilliseconds} from './utils';
+> 12 | import RNDatePickerAndroid from './specs/NativeModuleDatePicker';
+     |                                  ^
+  13 | import type {DatePickerOptions, DateTimePickerResult} from './types';
+  14 |
+  15 | export default class DatePickerAndroid {
+    at ModuleResolver.resolveDependency (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\node-haste\DependencyGraph\ModuleResolution.js:112:15)
+    at DependencyGraph.resolveDependency (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\node-haste\DependencyGraph.js:232:43)
+    at D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\lib\transformHelpers.js:156:21
+    at resolveDependencies (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\DeltaBundler\buildSubgraph.js:42:25)
+    at visit (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\DeltaBundler\buildSubgraph.js:83:30)
+    at async Promise.all (index 0)
+    at async visit (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\DeltaBundler\buildSubgraph.js:92:5)
+    at async Promise.all (index 0)
+    at async visit (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\DeltaBundler\buildSubgraph.js:92:5)
+    at async Promise.all (index 0)
+ ERROR  [Error: undefined Unable to resolve module ./specs/NativeModuleDatePicker from D:\wamp\www\personal\Habit-tracker-app\node_modules\@react-native-community\datetimepicker\src\datepicker.android.js: 
+
+None of these files exist:
+  * node_modules\@react-native-community\datetimepicker\src\specs\NativeModuleDatePicker(.android.js|.native.js|.js|.android.jsx|.native.jsx|.jsx|.android.json|.native.json|.json|.android.ts|.native.ts|.ts|.android.tsx|.native.tsx|.tsx)
+  * node_modules\@react-native-community\datetimepicker\src\specs\NativeModuleDatePicker
+[0m [90m 10 |[39m [36mimport[39m {[33mDATE_SET_ACTION[39m[33m,[39m [33mDISMISS_ACTION[39m[33m,[39m [33mANDROID_DISPLAY[39m} [36mfrom[39m [32m'./constants'[39m[33m;[39m
+ [90m 11 |[39m [36mimport[39m {toMilliseconds} [36mfrom[39m [32m'./utils'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 12 |[39m [36mimport[39m [33mRNDatePickerAndroid[39m [36mfrom[39m [32m'./specs/NativeModuleDatePicker'[39m[33m;[39m
+ [90m    |[39m                                  [31m[1m^[22m[39m
+ [90m 13 |[39m [36mimport[39m type {[33mDatePickerOptions[39m[33m,[39m [33mDateTimePickerResult[39m} [36mfrom[39m [32m'./types'[39m[33m;[39m
+ [90m 14 |[39m
+ [90m 15 |[39m [36mexport[39m [36mdefault[39m [36mclass[39m [33mDatePickerAndroid[39m {[0m]
+ ERROR  [Error: undefined Unable to resolve module ./specs/NativeModuleDatePicker from D:\wamp\www\personal\Habit-tracker-app\node_modules\@react-native-community\datetimepicker\src\datepicker.android.js: 
+
+None of these files exist:
+  * node_modules\@react-native-community\datetimepicker\src\specs\NativeModuleDatePicker(.android.js|.native.js|.js|.android.jsx|.native.jsx|.jsx|.android.json|.native.json|.json|.android.ts|.native.ts|.ts|.android.tsx|.native.tsx|.tsx)
+  * node_modules\@react-native-community\datetimepicker\src\specs\NativeModuleDatePicker
+[0m [90m 10 |[39m [36mimport[39m {[33mDATE_SET_ACTION[39m[33m,[39m [33mDISMISS_ACTION[39m[33m,[39m [33mANDROID_DISPLAY[39m} [36mfrom[39m [32m'./constants'[39m[33m;[39m
+ [90m 11 |[39m [36mimport[39m {toMilliseconds} [36mfrom[39m [32m'./utils'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 12 |[39m [36mimport[39m [33mRNDatePickerAndroid[39m [36mfrom[39m [32m'./specs/NativeModuleDatePicker'[39m[33m;[39m
+ [90m    |[39m                                  [31m[1m^[22m[39m
+ [90m 13 |[39m [36mimport[39m type {[33mDatePickerOptions[39m[33m,[39m [33mDateTimePickerResult[39m} [36mfrom[39m [32m'./types'[39m[33m;[39m
+ [90m 14 |[39m
+ [90m 15 |[39m [36mexport[39m [36mdefault[39m [36mclass[39m [33mDatePickerAndroid[39m {[0m]
+ ERROR  [Error: undefined Unable to resolve module ./specs/NativeModuleDatePicker from D:\wamp\www\personal\Habit-tracker-app\node_modules\@react-native-community\datetimepicker\src\datepicker.android.js: 
+
+None of these files exist:
+  * node_modules\@react-native-community\datetimepicker\src\specs\NativeModuleDatePicker(.android.js|.native.js|.js|.android.jsx|.native.jsx|.jsx|.android.json|.native.json|.json|.android.ts|.native.ts|.ts|.android.tsx|.native.tsx|.tsx)
+  * node_modules\@react-native-community\datetimepicker\src\specs\NativeModuleDatePicker
+[0m [90m 10 |[39m [36mimport[39m {[33mDATE_SET_ACTION[39m[33m,[39m [33mDISMISS_ACTION[39m[33m,[39m [33mANDROID_DISPLAY[39m} [36mfrom[39m [32m'./constants'[39m[33m;[39m
+ [90m 11 |[39m [36mimport[39m {toMilliseconds} [36mfrom[39m [32m'./utils'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 12 |[39m [36mimport[39m [33mRNDatePickerAndroid[39m [36mfrom[39m [32m'./specs/NativeModuleDatePicker'[39m[33m;[39m
+ [90m    |[39m                                  [31m[1m^[22m[39m
+ [90m 13 |[39m [36mimport[39m type {[33mDatePickerOptions[39m[33m,[39m [33mDateTimePickerResult[39m} [36mfrom[39m [32m'./types'[39m[33m;[39m
+ [90m 14 |[39m
+ [90m 15 |[39m [36mexport[39m [36mdefault[39m [36mclass[39m [33mDatePickerAndroid[39m {[0m]
+ BUNDLE  ./index.js 
+
+error: Error: Unable to resolve module ./specs/NativeModuleDatePicker from D:\wamp\www\personal\Habit-tracker-app\node_modules\@react-native-community\datetimepicker\src\datepicker.android.js: 
+
+None of these files exist:
+  * node_modules\@react-native-community\datetimepicker\src\specs\NativeModuleDatePicker(.android.js|.native.js|.js|.android.jsx|.native.jsx|.jsx|.android.json|.native.json|.json|.android.ts|.native.ts|.ts|.android.tsx|.native.tsx|.tsx)
+  * node_modules\@react-native-community\datetimepicker\src\specs\NativeModuleDatePicker
+  10 | import {DATE_SET_ACTION, DISMISS_ACTION, ANDROID_DISPLAY} from './constants';
+  11 | import {toMilliseconds} from './utils';
+> 12 | import RNDatePickerAndroid from './specs/NativeModuleDatePicker';
+     |                                  ^
+  13 | import type {DatePickerOptions, DateTimePickerResult} from './types';
+  14 |
+  15 | export default class DatePickerAndroid {
+    at ModuleResolver.resolveDependency (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\node-haste\DependencyGraph\ModuleResolution.js:112:15)
+    at DependencyGraph.resolveDependency (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\node-haste\DependencyGraph.js:232:43)
+    at D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\lib\transformHelpers.js:156:21
+    at resolveDependencies (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\DeltaBundler\buildSubgraph.js:42:25)
+    at visit (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\DeltaBundler\buildSubgraph.js:83:30)
+    at async Promise.all (index 0)
+    at async visit (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\DeltaBundler\buildSubgraph.js:92:5)
+    at async Promise.all (index 0)
+    at async visit (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\DeltaBundler\buildSubgraph.js:92:5)
+    at async Promise.all (index 0)
+ BUNDLE  ./index.js 
+
+error: Error: Unable to resolve module ./specs/NativeModuleDatePicker from D:\wamp\www\personal\Habit-tracker-app\node_modules\@react-native-community\datetimepicker\src\datepicker.android.js: 
+
+None of these files exist:
+  * node_modules\@react-native-community\datetimepicker\src\specs\NativeModuleDatePicker(.android.js|.native.js|.js|.android.jsx|.native.jsx|.jsx|.android.json|.native.json|.json|.android.ts|.native.ts|.ts|.android.tsx|.native.tsx|.tsx)
+  * node_modules\@react-native-community\datetimepicker\src\specs\NativeModuleDatePicker
+  10 | import {DATE_SET_ACTION, DISMISS_ACTION, ANDROID_DISPLAY} from './constants';
+  11 | import {toMilliseconds} from './utils';
+> 12 | import RNDatePickerAndroid from './specs/NativeModuleDatePicker';
+     |                                  ^
+  13 | import type {DatePickerOptions, DateTimePickerResult} from './types';
+  14 |
+  15 | export default class DatePickerAndroid {
+    at ModuleResolver.resolveDependency (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\node-haste\DependencyGraph\ModuleResolution.js:112:15)
+    at DependencyGraph.resolveDependency (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\node-haste\DependencyGraph.js:232:43)
+    at D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\lib\transformHelpers.js:156:21
+    at resolveDependencies (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\DeltaBundler\buildSubgraph.js:42:25)
+    at visit (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\DeltaBundler\buildSubgraph.js:83:30)
+    at async Promise.all (index 0)
+    at async visit (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\DeltaBundler\buildSubgraph.js:92:5)
+    at async Promise.all (index 0)
+    at async visit (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\DeltaBundler\buildSubgraph.js:92:5)
+    at async Promise.all (index 0)
+ BUNDLE  ./index.js 
+
+error: Error: Unable to resolve module ./specs/NativeModuleDatePicker from D:\wamp\www\personal\Habit-tracker-app\node_modules\@react-native-community\datetimepicker\src\datepicker.android.js: 
+
+None of these files exist:
+  * node_modules\@react-native-community\datetimepicker\src\specs\NativeModuleDatePicker(.android.js|.native.js|.js|.android.jsx|.native.jsx|.jsx|.android.json|.native.json|.json|.android.ts|.native.ts|.ts|.android.tsx|.native.tsx|.tsx)
+  * node_modules\@react-native-community\datetimepicker\src\specs\NativeModuleDatePicker
+  10 | import {DATE_SET_ACTION, DISMISS_ACTION, ANDROID_DISPLAY} from './constants';
+  11 | import {toMilliseconds} from './utils';
+> 12 | import RNDatePickerAndroid from './specs/NativeModuleDatePicker';
+     |                                  ^
+  13 | import type {DatePickerOptions, DateTimePickerResult} from './types';
+  14 |
+  15 | export default class DatePickerAndroid {
+    at ModuleResolver.resolveDependency (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\node-haste\DependencyGraph\ModuleResolution.js:112:15)
+    at DependencyGraph.resolveDependency (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\node-haste\DependencyGraph.js:232:43)
+    at D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\lib\transformHelpers.js:156:21
+    at resolveDependencies (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\DeltaBundler\buildSubgraph.js:42:25)
+    at visit (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\DeltaBundler\buildSubgraph.js:83:30)
+    at async Promise.all (index 0)
+    at async visit (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\DeltaBundler\buildSubgraph.js:92:5)
+    at async Promise.all (index 0)
+    at async visit (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\DeltaBundler\buildSubgraph.js:92:5)
+    at async Promise.all (index 0)
+ BUNDLE  ./index.js 
+
+error: Error: Unable to resolve module ./specs/NativeModuleDatePicker from D:\wamp\www\personal\Habit-tracker-app\node_modules\@react-native-community\datetimepicker\src\datepicker.android.js: 
+
+None of these files exist:
+  * node_modules\@react-native-community\datetimepicker\src\specs\NativeModuleDatePicker(.android.js|.native.js|.js|.android.jsx|.native.jsx|.jsx|.android.json|.native.json|.json|.android.ts|.native.ts|.ts|.android.tsx|.native.tsx|.tsx)
+  * node_modules\@react-native-community\datetimepicker\src\specs\NativeModuleDatePicker
+  10 | import {DATE_SET_ACTION, DISMISS_ACTION, ANDROID_DISPLAY} from './constants';
+  11 | import {toMilliseconds} from './utils';
+> 12 | import RNDatePickerAndroid from './specs/NativeModuleDatePicker';
+     |                                  ^
+  13 | import type {DatePickerOptions, DateTimePickerResult} from './types';
+  14 |
+  15 | export default class DatePickerAndroid {
+    at ModuleResolver.resolveDependency (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\node-haste\DependencyGraph\ModuleResolution.js:112:15)
+    at DependencyGraph.resolveDependency (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\node-haste\DependencyGraph.js:232:43)
+    at D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\lib\transformHelpers.js:156:21
+    at resolveDependencies (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\DeltaBundler\buildSubgraph.js:42:25)
+    at visit (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\DeltaBundler\buildSubgraph.js:83:30)
+    at async Promise.all (index 0)
+    at async visit (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\DeltaBundler\buildSubgraph.js:92:5)
+    at async Promise.all (index 0)
+    at async visit (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\DeltaBundler\buildSubgraph.js:92:5)
+    at async Promise.all (index 0)
+ BUNDLE  ./index.js 
+
+error: Error: Unable to resolve module ./specs/NativeModuleDatePicker from D:\wamp\www\personal\Habit-tracker-app\node_modules\@react-native-community\datetimepicker\src\datepicker.android.js: 
+
+None of these files exist:
+  * node_modules\@react-native-community\datetimepicker\src\specs\NativeModuleDatePicker(.android.js|.native.js|.js|.android.jsx|.native.jsx|.jsx|.android.json|.native.json|.json|.android.ts|.native.ts|.ts|.android.tsx|.native.tsx|.tsx)
+  * node_modules\@react-native-community\datetimepicker\src\specs\NativeModuleDatePicker
+  10 | import {DATE_SET_ACTION, DISMISS_ACTION, ANDROID_DISPLAY} from './constants';
+  11 | import {toMilliseconds} from './utils';
+> 12 | import RNDatePickerAndroid from './specs/NativeModuleDatePicker';
+     |                                  ^
+  13 | import type {DatePickerOptions, DateTimePickerResult} from './types';
+  14 |
+  15 | export default class DatePickerAndroid {
+    at ModuleResolver.resolveDependency (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\node-haste\DependencyGraph\ModuleResolution.js:112:15)
+    at DependencyGraph.resolveDependency (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\node-haste\DependencyGraph.js:232:43)
+    at D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\lib\transformHelpers.js:156:21
+    at resolveDependencies (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\DeltaBundler\buildSubgraph.js:42:25)
+    at visit (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\DeltaBundler\buildSubgraph.js:83:30)
+    at async Promise.all (index 0)
+    at async visit (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\DeltaBundler\buildSubgraph.js:92:5)
+    at async Promise.all (index 0)
+    at async visit (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\DeltaBundler\buildSubgraph.js:92:5)
+    at async Promise.all (index 0)
+ BUNDLE  ./index.js 
+
+error: Error: Unable to resolve module ./specs/NativeModuleDatePicker from D:\wamp\www\personal\Habit-tracker-app\node_modules\@react-native-community\datetimepicker\src\datepicker.android.js: 
+
+None of these files exist:
+  * node_modules\@react-native-community\datetimepicker\src\specs\NativeModuleDatePicker(.android.js|.native.js|.js|.android.jsx|.native.jsx|.jsx|.android.json|.native.json|.json|.android.ts|.native.ts|.ts|.android.tsx|.native.tsx|.tsx)
+  * node_modules\@react-native-community\datetimepicker\src\specs\NativeModuleDatePicker
+  10 | import {DATE_SET_ACTION, DISMISS_ACTION, ANDROID_DISPLAY} from './constants';
+  11 | import {toMilliseconds} from './utils';
+> 12 | import RNDatePickerAndroid from './specs/NativeModuleDatePicker';
+     |                                  ^
+  13 | import type {DatePickerOptions, DateTimePickerResult} from './types';
+  14 |
+  15 | export default class DatePickerAndroid {
+    at ModuleResolver.resolveDependency (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\node-haste\DependencyGraph\ModuleResolution.js:112:15)
+    at DependencyGraph.resolveDependency (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\node-haste\DependencyGraph.js:232:43)
+    at D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\lib\transformHelpers.js:156:21
+    at resolveDependencies (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\DeltaBundler\buildSubgraph.js:42:25)
+    at visit (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\DeltaBundler\buildSubgraph.js:83:30)
+    at async Promise.all (index 0)
+    at async visit (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\DeltaBundler\buildSubgraph.js:92:5)
+    at async Promise.all (index 0)
+    at async visit (D:\wamp\www\personal\Habit-tracker-app\node_modules\metro\src\DeltaBundler\buildSubgraph.js:92:5)
+    at async Promise.all (index 0)
+ BUNDLE  ./index.js 
+
+ LOG  Running "HabitTrackerNative" with {"rootTag":11}
+ ERROR  Warning: Encountered two children with the same key, `T`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+    in RCTView (created by View)
+    in View (created by CalendarPicker)
+    in RCTView (created by View)
+    in View (created by Dialog.Content)
+    in Dialog.Content (created by CalendarPicker)
+    in RCTView (created by View)
+    in View (created by Animated(View))
+    in Animated(View)
+    in Unknown (created by Modal)
+    in RCTView (created by View)
+    in View (created by Modal)
+    in RCTView (created by View)
+    in View (created by Animated(View))
+    in Animated(View) (created by Modal)
+    in Modal (created by Dialog)
+    in Dialog (created by CalendarPicker)
+    in ThemeProvider
+    in RCTView (created by View)
+    in View (created by PortalManager)
+    in PortalManager (created by Portal.Host)
+    in Portal.Host (created by PaperProvider)
+    in RCTView (created by View)
+    in View (created by SafeAreaInsetsContext)
+    in SafeAreaProviderCompat (created by PaperProvider)
+    in PaperProvider (created by App)
+    in Provider (created by App)
+    in RNCSafeAreaProvider (created by SafeAreaProvider)
+    in SafeAreaProvider (created by App)
+    in RNGestureHandlerRootView (created by GestureHandlerRootView)
+    in GestureHandlerRootView (created by App)
+    in App
+    in RCTView (created by View)
+    in View (created by AppContainer)
+    in RCTView (created by View)
+    in View (created by AppContainer)
+    in AppContainer
+    in HabitTrackerNative(RootComponent)
+ ERROR  Warning: Encountered two children with the same key, `S`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+    in RCTView (created by View)
+    in View (created by CalendarPicker)
+    in RCTView (created by View)
+    in View (created by Dialog.Content)
+    in Dialog.Content (created by CalendarPicker)
+    in RCTView (created by View)
+    in View (created by Animated(View))
+    in Animated(View)
+    in Unknown (created by Modal)
+    in RCTView (created by View)
+    in View (created by Modal)
+    in RCTView (created by View)
+    in View (created by Animated(View))
+    in Animated(View) (created by Modal)
+    in Modal (created by Dialog)
+    in Dialog (created by CalendarPicker)
+    in ThemeProvider
+    in RCTView (created by View)
+    in View (created by PortalManager)
+    in PortalManager (created by Portal.Host)
+    in Portal.Host (created by PaperProvider)
+    in RCTView (created by View)
+    in View (created by SafeAreaInsetsContext)
+    in SafeAreaProviderCompat (created by PaperProvider)
+    in PaperProvider (created by App)
+    in Provider (created by App)
+    in RNCSafeAreaProvider (created by SafeAreaProvider)
+    in SafeAreaProvider (created by App)
+    in RNGestureHandlerRootView (created by GestureHandlerRootView)
+    in GestureHandlerRootView (created by App)
+    in App
+    in RCTView (created by View)
+    in View (created by AppContainer)
+    in RCTView (created by View)
+    in View (created by AppContainer)
+    in AppContainer
+    in HabitTrackerNative(RootComponent)
+ ERROR  Warning: Encountered two children with the same key, `T`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+    in RCTView (created by View)
+    in View (created by CalendarPicker)
+    in RCTView (created by View)
+    in View (created by Dialog.Content)
+    in Dialog.Content (created by CalendarPicker)
+    in RCTView (created by View)
+    in View (created by Animated(View))
+    in Animated(View)
+    in Unknown (created by Modal)
+    in RCTView (created by View)
+    in View (created by Modal)
+    in RCTView (created by View)
+    in View (created by Animated(View))
+    in Animated(View) (created by Modal)
+    in Modal (created by Dialog)
+    in Dialog (created by CalendarPicker)
+    in ThemeProvider
+    in RCTView (created by View)
+    in View (created by PortalManager)
+    in PortalManager (created by Portal.Host)
+    in Portal.Host (created by PaperProvider)
+    in RCTView (created by View)
+    in View (created by SafeAreaInsetsContext)
+    in SafeAreaProviderCompat (created by PaperProvider)
+    in PaperProvider (created by App)
+    in Provider (created by App)
+    in RNCSafeAreaProvider (created by SafeAreaProvider)
+    in SafeAreaProvider (created by App)
+    in RNGestureHandlerRootView (created by GestureHandlerRootView)
+    in GestureHandlerRootView (created by App)
+    in App
+    in RCTView (created by View)
+    in View (created by AppContainer)
+    in RCTView (created by View)
+    in View (created by AppContainer)
+    in AppContainer
+    in HabitTrackerNative(RootComponent)
+ ERROR  Warning: Encountered two children with the same key, `S`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+    in RCTView (created by View)
+    in View (created by CalendarPicker)
+    in RCTView (created by View)
+    in View (created by Dialog.Content)
+    in Dialog.Content (created by CalendarPicker)
+    in RCTView (created by View)
+    in View (created by Animated(View))
+    in Animated(View)
+    in Unknown (created by Modal)
+    in RCTView (created by View)
+    in View (created by Modal)
+    in RCTView (created by View)
+    in View (created by Animated(View))
+    in Animated(View) (created by Modal)
+    in Modal (created by Dialog)
+    in Dialog (created by CalendarPicker)
+    in ThemeProvider
+    in RCTView (created by View)
+    in View (created by PortalManager)
+    in PortalManager (created by Portal.Host)
+    in Portal.Host (created by PaperProvider)
+    in RCTView (created by View)
+    in View (created by SafeAreaInsetsContext)
+    in SafeAreaProviderCompat (created by PaperProvider)
+    in PaperProvider (created by App)
+    in Provider (created by App)
+    in RNCSafeAreaProvider (created by SafeAreaProvider)
+    in SafeAreaProvider (created by App)
+    in RNGestureHandlerRootView (created by GestureHandlerRootView)
+    in GestureHandlerRootView (created by App)
+    in App
+    in RCTView (created by View)
+    in View (created by AppContainer)
+    in RCTView (created by View)
+    in View (created by AppContainer)
+    in AppContainer
+    in HabitTrackerNative(RootComponent)
+ ERROR  Warning: Encountered two children with the same key, `T`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+    in RCTView (created by View)
+    in View (created by CalendarPicker)
+    in RCTView (created by View)
+    in View (created by Dialog.Content)
+    in Dialog.Content (created by CalendarPicker)
+    in RCTView (created by View)
+    in View (created by Animated(View))
+    in Animated(View)
+    in Unknown (created by Modal)
+    in RCTView (created by View)
+    in View (created by Modal)
+    in RCTView (created by View)
+    in View (created by Animated(View))
+    in Animated(View) (created by Modal)
+    in Modal (created by Dialog)
+    in Dialog (created by CalendarPicker)
+    in ThemeProvider
+    in RCTView (created by View)
+    in View (created by PortalManager)
+    in PortalManager (created by Portal.Host)
+    in Portal.Host (created by PaperProvider)
+    in RCTView (created by View)
+    in View (created by SafeAreaInsetsContext)
+    in SafeAreaProviderCompat (created by PaperProvider)
+    in PaperProvider (created by App)
+    in Provider (created by App)
+    in RNCSafeAreaProvider (created by SafeAreaProvider)
+    in SafeAreaProvider (created by App)
+    in RNGestureHandlerRootView (created by GestureHandlerRootView)
+    in GestureHandlerRootView (created by App)
+    in App
+    in RCTView (created by View)
+    in View (created by AppContainer)
+    in RCTView (created by View)
+    in View (created by AppContainer)
+    in AppContainer
+    in HabitTrackerNative(RootComponent)
+ ERROR  Warning: Encountered two children with the same key, `S`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+    in RCTView (created by View)
+    in View (created by CalendarPicker)
+    in RCTView (created by View)
+    in View (created by Dialog.Content)
+    in Dialog.Content (created by CalendarPicker)
+    in RCTView (created by View)
+    in View (created by Animated(View))
+    in Animated(View)
+    in Unknown (created by Modal)
+    in RCTView (created by View)
+    in View (created by Modal)
+    in RCTView (created by View)
+    in View (created by Animated(View))
+    in Animated(View) (created by Modal)
+    in Modal (created by Dialog)
+    in Dialog (created by CalendarPicker)
+    in ThemeProvider
+    in RCTView (created by View)
+    in View (created by PortalManager)
+    in PortalManager (created by Portal.Host)
+    in Portal.Host (created by PaperProvider)
+    in RCTView (created by View)
+    in View (created by SafeAreaInsetsContext)
+    in SafeAreaProviderCompat (created by PaperProvider)
+    in PaperProvider (created by App)
+    in Provider (created by App)
+    in RNCSafeAreaProvider (created by SafeAreaProvider)
+    in SafeAreaProvider (created by App)
+    in RNGestureHandlerRootView (created by GestureHandlerRootView)
+    in GestureHandlerRootView (created by App)
+    in App
+    in RCTView (created by View)
+    in View (created by AppContainer)
+    in RCTView (created by View)
+    in View (created by AppContainer)
+    in AppContainer
+    in HabitTrackerNative(RootComponent)
+ ERROR  Warning: Encountered two children with the same key, `T`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+    in RCTView (created by View)
+    in View (created by CalendarPicker)
+    in RCTView (created by View)
+    in View (created by Dialog.Content)
+    in Dialog.Content (created by CalendarPicker)
+    in RCTView (created by View)
+    in View (created by Animated(View))
+    in Animated(View)
+    in Unknown (created by Modal)
+    in RCTView (created by View)
+    in View (created by Modal)
+    in RCTView (created by View)
+    in View (created by Animated(View))
+    in Animated(View) (created by Modal)
+    in Modal (created by Dialog)
+    in Dialog (created by CalendarPicker)
+    in ThemeProvider
+    in RCTView (created by View)
+    in View (created by PortalManager)
+    in PortalManager (created by Portal.Host)
+    in Portal.Host (created by PaperProvider)
+    in RCTView (created by View)
+    in View (created by SafeAreaInsetsContext)
+    in SafeAreaProviderCompat (created by PaperProvider)
+    in PaperProvider (created by App)
+    in Provider (created by App)
+    in RNCSafeAreaProvider (created by SafeAreaProvider)
+    in SafeAreaProvider (created by App)
+    in RNGestureHandlerRootView (created by GestureHandlerRootView)
+    in GestureHandlerRootView (created by App)
+    in App
+    in RCTView (created by View)
+    in View (created by AppContainer)
+    in RCTView (created by View)
+    in View (created by AppContainer)
+    in AppContainer
+    in HabitTrackerNative(RootComponent)
+ ERROR  Warning: Encountered two children with the same key, `S`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+    in RCTView (created by View)
+    in View (created by CalendarPicker)
+    in RCTView (created by View)
+    in View (created by Dialog.Content)
+    in Dialog.Content (created by CalendarPicker)
+    in RCTView (created by View)
+    in View (created by Animated(View))
+    in Animated(View)
+    in Unknown (created by Modal)
+    in RCTView (created by View)
+    in View (created by Modal)
+    in RCTView (created by View)
+    in View (created by Animated(View))
+    in Animated(View) (created by Modal)
+    in Modal (created by Dialog)
+    in Dialog (created by CalendarPicker)
+    in ThemeProvider
+    in RCTView (created by View)
+    in View (created by PortalManager)
+    in PortalManager (created by Portal.Host)
+    in Portal.Host (created by PaperProvider)
+    in RCTView (created by View)
+    in View (created by SafeAreaInsetsContext)
+    in SafeAreaProviderCompat (created by PaperProvider)
+    in PaperProvider (created by App)
+    in Provider (created by App)
+    in RNCSafeAreaProvider (created by SafeAreaProvider)
+    in SafeAreaProvider (created by App)
+    in RNGestureHandlerRootView (created by GestureHandlerRootView)
+    in GestureHandlerRootView (created by App)
+    in App
+    in RCTView (created by View)
+    in View (created by AppContainer)
+    in RCTView (created by View)
+    in View (created by AppContainer)
+    in AppContainer
+    in HabitTrackerNative(RootComponent)
+ ERROR  Warning: Encountered two children with the same key, `T`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+    in RCTView (created by View)
+    in View (created by CalendarPicker)
+    in RCTView (created by View)
+    in View (created by Dialog.Content)
+    in Dialog.Content (created by CalendarPicker)
+    in RCTView (created by View)
+    in View (created by Animated(View))
+    in Animated(View)
+    in Unknown (created by Modal)
+    in RCTView (created by View)
+    in View (created by Modal)
+    in RCTView (created by View)
+    in View (created by Animated(View))
+    in Animated(View) (created by Modal)
+    in Modal (created by Dialog)
+    in Dialog (created by CalendarPicker)
+    in ThemeProvider
+    in RCTView (created by View)
+    in View (created by PortalManager)
+    in PortalManager (created by Portal.Host)
+    in Portal.Host (created by PaperProvider)
+    in RCTView (created by View)
+    in View (created by SafeAreaInsetsContext)
+    in SafeAreaProviderCompat (created by PaperProvider)
+    in PaperProvider (created by App)
+    in Provider (created by App)
+    in RNCSafeAreaProvider (created by SafeAreaProvider)
+    in SafeAreaProvider (created by App)
+    in RNGestureHandlerRootView (created by GestureHandlerRootView)
+    in GestureHandlerRootView (created by App)
+    in App
+    in RCTView (created by View)
+    in View (created by AppContainer)
+    in RCTView (created by View)
+    in View (created by AppContainer)
+    in AppContainer
+    in HabitTrackerNative(RootComponent)
+ ERROR  Warning: Encountered two children with the same key, `S`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+    in RCTView (created by View)
+    in View (created by CalendarPicker)
+    in RCTView (created by View)
+    in View (created by Dialog.Content)
+    in Dialog.Content (created by CalendarPicker)
+    in RCTView (created by View)
+    in View (created by Animated(View))
+    in Animated(View)
+    in Unknown (created by Modal)
+    in RCTView (created by View)
+    in View (created by Modal)
+    in RCTView (created by View)
+    in View (created by Animated(View))
+    in Animated(View) (created by Modal)
+    in Modal (created by Dialog)
+    in Dialog (created by CalendarPicker)
+    in ThemeProvider
+    in RCTView (created by View)
+    in View (created by PortalManager)
+    in PortalManager (created by Portal.Host)
+    in Portal.Host (created by PaperProvider)
+    in RCTView (created by View)
+    in View (created by SafeAreaInsetsContext)
+    in SafeAreaProviderCompat (created by PaperProvider)
+    in PaperProvider (created by App)
+    in Provider (created by App)
+    in RNCSafeAreaProvider (created by SafeAreaProvider)
+    in SafeAreaProvider (created by App)
+    in RNGestureHandlerRootView (created by GestureHandlerRootView)
+    in GestureHandlerRootView (created by App)
+    in App
+    in RCTView (created by View)
+    in View (created by AppContainer)
+    in RCTView (created by View)
+    in View (created by AppContainer)
+    in AppContainer
+    in HabitTrackerNative(RootComponent)
+ BUNDLE  ./index.js 
+
+ LOG  Running "HabitTrackerNative" with {"rootTag":11}
+ ERROR  Warning: Encountered two children with the same key, `T`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+    in RCTView (created by View)
+    in View (created by CalendarPicker)
+    in RCTView (created by View)
+    in View (created by Dialog.Content)
+    in Dialog.Content (created by CalendarPicker)
+    in RCTView (created by View)
+    in View (created by Animated(View))
+    in Animated(View)
+    in Unknown (created by Modal)
+    in RCTView (created by View)
+    in View (created by Modal)
+    in RCTView (created by View)
+    in View (created by Animated(View))
+    in Animated(View) (created by Modal)
+    in Modal (created by Dialog)
+    in Dialog (created by CalendarPicker)
+    in ThemeProvider
+    in RCTView (created by View)
+    in View (created by PortalManager)
+    in PortalManager (created by Portal.Host)
+    in Portal.Host (created by PaperProvider)
+    in RCTView (created by View)
+    in View (created by SafeAreaInsetsContext)
+    in SafeAreaProviderCompat (created by PaperProvider)
+    in PaperProvider (created by App)
+    in Provider (created by App)
+    in RNCSafeAreaProvider (created by SafeAreaProvider)
+    in SafeAreaProvider (created by App)
+    in RNGestureHandlerRootView (created by GestureHandlerRootView)
+    in GestureHandlerRootView (created by App)
+    in App
+    in RCTView (created by View)
+    in View (created by AppContainer)
+    in RCTView (created by View)
+    in View (created by AppContainer)
+    in AppContainer
+    in HabitTrackerNative(RootComponent)
+ ERROR  Warning: Encountered two children with the same key, `S`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+    in RCTView (created by View)
+    in View (created by CalendarPicker)
+    in RCTView (created by View)
+    in View (created by Dialog.Content)
+    in Dialog.Content (created by CalendarPicker)
+    in RCTView (created by View)
+    in View (created by Animated(View))
+    in Animated(View)
+    in Unknown (created by Modal)
+    in RCTView (created by View)
+    in View (created by Modal)
+    in RCTView (created by View)
+    in View (created by Animated(View))
+    in Animated(View) (created by Modal)
+    in Modal (created by Dialog)
+    in Dialog (created by CalendarPicker)
+    in ThemeProvider
+    in RCTView (created by View)
+    in View (created by PortalManager)
+    in PortalManager (created by Portal.Host)
+    in Portal.Host (created by PaperProvider)
+    in RCTView (created by View)
+    in View (created by SafeAreaInsetsContext)
+    in SafeAreaProviderCompat (created by PaperProvider)
+    in PaperProvider (created by App)
+    in Provider (created by App)
+    in RNCSafeAreaProvider (created by SafeAreaProvider)
+    in SafeAreaProvider (created by App)
+    in RNGestureHandlerRootView (created by GestureHandlerRootView)
+    in GestureHandlerRootView (created by App)
+    in App
+    in RCTView (created by View)
+    in View (created by AppContainer)
+    in RCTView (created by View)
+    in View (created by AppContainer)
+    in AppContainer
+    in HabitTrackerNative(RootComponent)
+ ERROR  Warning: Encountered two children with the same key, `T`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+    in RCTView (created by View)
+    in View (created by CalendarPicker)
+    in RCTView (created by View)
+    in View (created by Dialog.Content)
+    in Dialog.Content (created by CalendarPicker)
+    in RCTView (created by View)
+    in View (created by Animated(View))
+    in Animated(View)
+    in Unknown (created by Modal)
+    in RCTView (created by View)
+    in View (created by Modal)
+    in RCTView (created by View)
+    in View (created by Animated(View))
+    in Animated(View) (created by Modal)
+    in Modal (created by Dialog)
+    in Dialog (created by CalendarPicker)
+    in ThemeProvider
+    in RCTView (created by View)
+    in View (created by PortalManager)
+    in PortalManager (created by Portal.Host)
+    in Portal.Host (created by PaperProvider)
+    in RCTView (created by View)
+    in View (created by SafeAreaInsetsContext)
+    in SafeAreaProviderCompat (created by PaperProvider)
+    in PaperProvider (created by App)
+    in Provider (created by App)
+    in RNCSafeAreaProvider (created by SafeAreaProvider)
+    in SafeAreaProvider (created by App)
+    in RNGestureHandlerRootView (created by GestureHandlerRootView)
+    in GestureHandlerRootView (created by App)
+    in App
+    in RCTView (created by View)
+    in View (created by AppContainer)
+    in RCTView (created by View)
+    in View (created by AppContainer)
+    in AppContainer
+    in HabitTrackerNative(RootComponent)
+ ERROR  Warning: Encountered two children with the same key, `S`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+    in RCTView (created by View)
+    in View (created by CalendarPicker)
+    in RCTView (created by View)
+    in View (created by Dialog.Content)
+    in Dialog.Content (created by CalendarPicker)
+    in RCTView (created by View)
+    in View (created by Animated(View))
+    in Animated(View)
+    in Unknown (created by Modal)
+    in RCTView (created by View)
+    in View (created by Modal)
+    in RCTView (created by View)
+    in View (created by Animated(View))
+    in Animated(View) (created by Modal)
+    in Modal (created by Dialog)
+    in Dialog (created by CalendarPicker)
+    in ThemeProvider
+    in RCTView (created by View)
+    in View (created by PortalManager)
+    in PortalManager (created by Portal.Host)
+    in Portal.Host (created by PaperProvider)
+    in RCTView (created by View)
+    in View (created by SafeAreaInsetsContext)
+    in SafeAreaProviderCompat (created by PaperProvider)
+    in PaperProvider (created by App)
+    in Provider (created by App)
+    in RNCSafeAreaProvider (created by SafeAreaProvider)
+    in SafeAreaProvider (created by App)
+    in RNGestureHandlerRootView (created by GestureHandlerRootView)
+    in GestureHandlerRootView (created by App)
+    in App
+    in RCTView (created by View)
+    in View (created by AppContainer)
+    in RCTView (created by View)
+    in View (created by AppContainer)
+    in AppContainer
+    in HabitTrackerNative(RootComponent)
+ ERROR  Warning: Encountered two children with the same key, `T`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+    in RCTView (created by View)
+    in View (created by CalendarPicker)
+    in RCTView (created by View)
+    in View (created by Dialog.Content)
+    in Dialog.Content (created by CalendarPicker)
+    in RCTView (created by View)
+    in View (created by Animated(View))
+    in Animated(View)
+    in Unknown (created by Modal)
+    in RCTView (created by View)
+    in View (created by Modal)
+    in RCTView (created by View)
+    in View (created by Animated(View))
+    in Animated(View) (created by Modal)
+    in Modal (created by Dialog)
+    in Dialog (created by CalendarPicker)
+    in ThemeProvider
+    in RCTView (created by View)
+    in View (created by PortalManager)
+    in PortalManager (created by Portal.Host)
+    in Portal.Host (created by PaperProvider)
+    in RCTView (created by View)
+    in View (created by SafeAreaInsetsContext)
+    in SafeAreaProviderCompat (created by PaperProvider)
+    in PaperProvider (created by App)
+    in Provider (created by App)
+    in RNCSafeAreaProvider (created by SafeAreaProvider)
+    in SafeAreaProvider (created by App)
+    in RNGestureHandlerRootView (created by GestureHandlerRootView)
+    in GestureHandlerRootView (created by App)
+    in App
+    in RCTView (created by View)
+    in View (created by AppContainer)
+    in RCTView (created by View)
+    in View (created by AppContainer)
+    in AppContainer
+    in HabitTrackerNative(RootComponent)
+ ERROR  Warning: Encountered two children with the same key, `S`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+    in RCTView (created by View)
+    in View (created by CalendarPicker)
+    in RCTView (created by View)
+    in View (created by Dialog.Content)
+    in Dialog.Content (created by CalendarPicker)
+    in RCTView (created by View)
+    in View (created by Animated(View))
+    in Animated(View)
+    in Unknown (created by Modal)
+    in RCTView (created by View)
+    in View (created by Modal)
+    in RCTView (created by View)
+    in View (created by Animated(View))
+    in Animated(View) (created by Modal)
+    in Modal (created by Dialog)
+    in Dialog (created by CalendarPicker)
+    in ThemeProvider
+    in RCTView (created by View)
+    in View (created by PortalManager)
+    in PortalManager (created by Portal.Host)
+    in Portal.Host (created by PaperProvider)
+    in RCTView (created by View)
+    in View (created by SafeAreaInsetsContext)
+    in SafeAreaProviderCompat (created by PaperProvider)
+    in PaperProvider (created by App)
+    in Provider (created by App)
+    in RNCSafeAreaProvider (created by SafeAreaProvider)
+    in SafeAreaProvider (created by App)
+    in RNGestureHandlerRootView (created by GestureHandlerRootView)
+    in GestureHandlerRootView (created by App)
+    in App
+    in RCTView (created by View)
+    in View (created by AppContainer)
+    in RCTView (created by View)
+    in View (created by AppContainer)
+    in AppContainer
+    in HabitTrackerNative(RootComponent)
+ ERROR  Warning: Encountered two children with the same key, `T`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+    in RCTView (created by View)
+    in View (created by CalendarPicker)
+    in RCTView (created by View)
+    in View (created by Dialog.Content)
+    in Dialog.Content (created by CalendarPicker)
+    in RCTView (created by View)
+    in View (created by Animated(View))
+    in Animated(View)
+    in Unknown (created by Modal)
+    in RCTView (created by View)
+    in View (created by Modal)
+    in RCTView (created by View)
+    in View (created by Animated(View))
+    in Animated(View) (created by Modal)
+    in Modal (created by Dialog)
+    in Dialog (created by CalendarPicker)
+    in ThemeProvider
+    in RCTView (created by View)
+    in View (created by PortalManager)
+    in PortalManager (created by Portal.Host)
+    in Portal.Host (created by PaperProvider)
+    in RCTView (created by View)
+    in View (created by SafeAreaInsetsContext)
+    in SafeAreaProviderCompat (created by PaperProvider)
+    in PaperProvider (created by App)
+    in Provider (created by App)
+    in RNCSafeAreaProvider (created by SafeAreaProvider)
+    in SafeAreaProvider (created by App)
+    in RNGestureHandlerRootView (created by GestureHandlerRootView)
+    in GestureHandlerRootView (created by App)
+    in App
+    in RCTView (created by View)
+    in View (created by AppContainer)
+    in RCTView (created by View)
+    in View (created by AppContainer)
+    in AppContainer
+    in HabitTrackerNative(RootComponent)
+ ERROR  Warning: Encountered two children with the same key, `S`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+    in RCTView (created by View)
+    in View (created by CalendarPicker)
+    in RCTView (created by View)
+    in View (created by Dialog.Content)
+    in Dialog.Content (created by CalendarPicker)
+    in RCTView (created by View)
+    in View (created by Animated(View))
+    in Animated(View)
+    in Unknown (created by Modal)
+    in RCTView (created by View)
+    in View (created by Modal)
+    in RCTView (created by View)
+    in View (created by Animated(View))
+    in Animated(View) (created by Modal)
+    in Modal (created by Dialog)
+    in Dialog (created by CalendarPicker)
+    in ThemeProvider
+    in RCTView (created by View)
+    in View (created by PortalManager)
+    in PortalManager (created by Portal.Host)
+    in Portal.Host (created by PaperProvider)
+    in RCTView (created by View)
+    in View (created by SafeAreaInsetsContext)
+    in SafeAreaProviderCompat (created by PaperProvider)
+    in PaperProvider (created by App)
+    in Provider (created by App)
+    in RNCSafeAreaProvider (created by SafeAreaProvider)
+    in SafeAreaProvider (created by App)
+    in RNGestureHandlerRootView (created by GestureHandlerRootView)
+    in GestureHandlerRootView (created by App)
+    in App
+    in RCTView (created by View)
+    in View (created by AppContainer)
+    in RCTView (created by View)
+    in View (created by AppContainer)
+    in AppContainer
+    in HabitTrackerNative(RootComponent)
