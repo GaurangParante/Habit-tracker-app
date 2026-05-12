@@ -25,8 +25,44 @@ class DatabaseService {
       await this.db.executeSql(statement);
     }
 
+    await this.runMigrations();
     await this.seedIfNeeded();
     return this.db;
+  }
+
+  private async runMigrations() {
+    const habitColumns = await this.query<{name: string}>(
+      'PRAGMA table_info(Habits)',
+    );
+    const todoColumns = await this.query<{name: string}>(
+      'PRAGMA table_info(Todos)',
+    );
+
+    const ensureColumn = async (
+      columns: Array<{name: string}>,
+      name: string,
+      statement: string,
+    ) => {
+      if (!columns.some(column => column.name === name)) {
+        await this.execute(statement);
+      }
+    };
+
+    await ensureColumn(
+      habitColumns,
+      'icon',
+      "ALTER TABLE Habits ADD COLUMN icon TEXT NOT NULL DEFAULT 'target'",
+    );
+    await ensureColumn(
+      habitColumns,
+      'color',
+      "ALTER TABLE Habits ADD COLUMN color TEXT NOT NULL DEFAULT '#10B981'",
+    );
+    await ensureColumn(
+      todoColumns,
+      'description',
+      'ALTER TABLE Todos ADD COLUMN description TEXT',
+    );
   }
 
   private async seedIfNeeded() {
@@ -36,8 +72,15 @@ class DatabaseService {
     if (habitCount === 0) {
       for (const habit of seedHabits) {
         await this.execute(
-          'INSERT INTO Habits (id, name, frequency, created_at) VALUES (?, ?, ?, ?)',
-          [habit.id, habit.name, habit.frequency, habit.created_at],
+          'INSERT INTO Habits (id, name, frequency, icon, color, created_at) VALUES (?, ?, ?, ?, ?, ?)',
+          [
+            habit.id,
+            habit.name,
+            habit.frequency,
+            habit.icon,
+            habit.color,
+            habit.created_at,
+          ],
         );
       }
     }
@@ -48,10 +91,11 @@ class DatabaseService {
     if (todoCount === 0) {
       for (const todo of seedTodos) {
         await this.execute(
-          'INSERT INTO Todos (id, title, priority, due_date, completed, created_at) VALUES (?, ?, ?, ?, ?, ?)',
+          'INSERT INTO Todos (id, title, description, priority, due_date, completed, created_at) VALUES (?, ?, ?, ?, ?, ?, ?)',
           [
             todo.id,
             todo.title,
+            todo.description,
             todo.priority,
             todo.due_date,
             todo.completed,
@@ -84,7 +128,7 @@ class DatabaseService {
     if (settingsCount === 0) {
       await this.execute('INSERT INTO Settings (key, value) VALUES (?, ?)', [
         'theme',
-        'light',
+        'dark',
       ]);
     }
 
@@ -124,6 +168,14 @@ class DatabaseService {
        )`,
       [date, date],
     );
+  }
+
+  async resetAppData() {
+    await this.execute('DELETE FROM HabitLogs');
+    await this.execute('DELETE FROM Habits');
+    await this.execute('DELETE FROM Todos');
+    await this.execute('DELETE FROM Achievements');
+    await this.seedIfNeeded();
   }
 
   private mapRows<T>(result: ResultSet) {

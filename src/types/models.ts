@@ -6,6 +6,8 @@ export type Habit = {
   id: string;
   name: string;
   frequency: HabitFrequency;
+  icon: string;
+  color: string;
   created_at: string;
 };
 
@@ -19,6 +21,7 @@ export type HabitLog = {
 export type Todo = {
   id: string;
   title: string;
+  description: string | null;
   priority: TodoPriority;
   due_date: string | null;
   completed: number;
@@ -47,6 +50,12 @@ export type HabitStats = {
   completionRate: number;
   totalCompletions: number;
   activeStreak: number;
+  bestStreak: number;
+  todayCompleted: number;
+  totalHabits: number;
+  pendingTodos: number;
+  completedTodos: number;
+  productivityScore: number;
 };
 
 export type DashboardSnapshot = {
@@ -55,4 +64,5 @@ export type DashboardSnapshot = {
   overdueTodos: Todo[];
   stats: HabitStats;
   achievements: Achievement[];
+  quote: string;
 };

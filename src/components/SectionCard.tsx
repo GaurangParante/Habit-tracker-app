@@ -18,10 +18,12 @@ const SectionCard = ({title, subtitle, children}: Props) => {
         {
           backgroundColor: theme.colors.surface,
           borderColor: theme.colors.outlineVariant,
-          shadowColor: '#0B1620',
+          shadowColor: '#000000',
         },
       ]}>
-      <Text variant="titleMedium">{title}</Text>
+      <Text variant="titleMedium" style={styles.title}>
+        {title}
+      </Text>
       {subtitle ? <Text style={styles.subtitle}>{subtitle}</Text> : null}
       <View style={styles.body}>{children}</View>
     </View>
@@ -34,9 +36,14 @@ const styles = StyleSheet.create({
     borderRadius: 24,
     padding: 18,
     shadowOffset: {width: 0, height: 12},
-    shadowOpacity: 0.08,
+    shadowOpacity: 0.16,
     shadowRadius: 24,
     elevation: 3,
+  },
+  title: {
+    textTransform: 'uppercase',
+    fontSize: 12,
+    letterSpacing: 1.2,
   },
   subtitle: {
     marginTop: 4,

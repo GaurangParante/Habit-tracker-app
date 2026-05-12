@@ -15,6 +15,7 @@ import {store} from './src/store';
 import {databaseService} from './src/database/database';
 import {themeSliceActions} from './src/store/slices/themeSlice';
 import {settingsService} from './src/services/settingsService';
+import {palette} from './src/theme/palette';
 
 const App = (): React.JSX.Element => {
   const [isReady, setIsReady] = useState(false);
@@ -24,7 +25,7 @@ const App = (): React.JSX.Element => {
     const bootstrap = async () => {
       await databaseService.initialize();
       const storedTheme = await settingsService.getThemePreference();
-      const dark = storedTheme === 'dark';
+      const dark = storedTheme !== 'light';
       setIsDarkMode(dark);
       store.dispatch(themeSliceActions.setTheme(dark ? 'dark' : 'light'));
       setIsReady(true);
@@ -40,11 +41,11 @@ const App = (): React.JSX.Element => {
             ...DarkTheme,
             colors: {
               ...DarkTheme.colors,
-              background: '#0D1117',
-              card: '#161B22',
-              border: '#283341',
-              primary: '#7BD389',
-              text: '#F0F6FC',
+              background: palette.background,
+              card: palette.surface,
+              border: palette.border,
+              primary: palette.primary,
+              text: palette.text,
             },
           }
         : {
@@ -54,7 +55,7 @@ const App = (): React.JSX.Element => {
               background: '#F4F7F1',
               card: '#FFFFFF',
               border: '#D4DECF',
-              primary: '#2F6B3C',
+              primary: palette.primaryDark,
               text: '#17301E',
             },
           },
@@ -68,18 +69,22 @@ const App = (): React.JSX.Element => {
             ...MD3DarkTheme,
             colors: {
               ...MD3DarkTheme.colors,
-              primary: '#7BD389',
-              secondary: '#A2E3C4',
-              background: '#0D1117',
-              surface: '#161B22',
-              surfaceVariant: '#21262D',
+              primary: palette.primary,
+              secondary: palette.primaryDark,
+              background: palette.background,
+              surface: palette.surface,
+              surfaceVariant: palette.surfaceSoft,
+              outlineVariant: palette.border,
+              onSurface: palette.text,
+              onSurfaceVariant: palette.textMuted,
+              error: palette.danger,
             },
           }
         : {
             ...MD3LightTheme,
             colors: {
               ...MD3LightTheme.colors,
-              primary: '#2F6B3C',
+              primary: palette.primaryDark,
               secondary: '#6E9F76',
               background: '#F4F7F1',
               surface: '#FFFFFF',

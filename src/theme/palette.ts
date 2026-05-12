@@ -1,0 +1,16 @@
+export const palette = {
+  background: '#0F1115',
+  surface: '#171923',
+  surfaceSoft: '#1D202B',
+  surfaceMuted: '#11141D',
+  border: '#262B39',
+  primary: '#22C55E',
+  primaryDark: '#16A34A',
+  primaryTint: '#0C2D1A',
+  text: '#FFFFFF',
+  textMuted: '#A1A1AA',
+  warning: '#F59E0B',
+  danger: '#EF4444',
+  purple: '#8B5CF6',
+  blue: '#3B82F6',
+} as const;

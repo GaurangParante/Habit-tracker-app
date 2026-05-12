@@ -1,7 +1,7 @@
 import {createSlice, PayloadAction} from '@reduxjs/toolkit';
 
 type UiState = {
-  todoFilter: 'all' | 'active' | 'completed';
+  todoFilter: 'all' | 'active' | 'completed' | 'overdue';
 };
 
 const initialState: UiState = {

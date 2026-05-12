@@ -21,12 +21,12 @@ const RootNavigator = () => {
       />
       <Stack.Screen
         name="HabitForm"
-        options={{title: 'Habit'}}
+        options={{title: 'Habit', presentation: 'modal'}}
         getComponent={() => require('@/screens/HabitFormScreen').default}
       />
       <Stack.Screen
         name="TodoForm"
-        options={{title: 'Todo'}}
+        options={{title: 'Todo', presentation: 'modal'}}
         getComponent={() => require('@/screens/TodoFormScreen').default}
       />
       <Stack.Screen
@@ -36,7 +36,7 @@ const RootNavigator = () => {
       />
       <Stack.Screen
         name="Settings"
-        options={{title: 'Settings'}}
+        options={{title: 'Settings', presentation: 'modal'}}
         getComponent={() => require('@/screens/SettingsScreen').default}
       />
     </Stack.Navigator>

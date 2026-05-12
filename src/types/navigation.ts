@@ -12,4 +12,5 @@ export type BottomTabParamList = {
   Habits: undefined;
   Todos: undefined;
   Statistics: undefined;
+  SettingsTab: undefined;
 };

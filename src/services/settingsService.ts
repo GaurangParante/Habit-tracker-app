@@ -5,7 +5,7 @@ import {ThemeMode} from '@/types/models';
 export const settingsService = {
   async getThemePreference(): Promise<ThemeMode> {
     const setting = await settingsRepository.get(SETTINGS_KEYS.THEME);
-    return setting?.value === 'dark' ? 'dark' : 'light';
+    return setting?.value === 'light' ? 'light' : 'dark';
   },
 
   async setThemePreference(mode: ThemeMode) {

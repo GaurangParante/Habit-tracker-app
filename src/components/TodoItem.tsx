@@ -1,8 +1,10 @@
 import React, {memo} from 'react';
-import {StyleSheet, View} from 'react-native';
-import {Button, Chip, IconButton, Text} from 'react-native-paper';
+import {Pressable, StyleSheet, View} from 'react-native';
+import MaterialDesignIcons from '@react-native-vector-icons/material-design-icons';
+import {Chip, IconButton, Text, useTheme} from 'react-native-paper';
 import {Todo} from '@/types/models';
 import {formatReadableDate} from '@/utils/date';
+import {palette} from '@/theme/palette';
 
 type Props = {
   todo: Todo;
@@ -18,10 +20,33 @@ const priorityColor: Record<Todo['priority'], string> = {
 };
 
 const TodoItem = ({todo, onToggle, onEdit, onDelete}: Props) => {
+  const theme = useTheme();
+
   return (
-    <View style={styles.row}>
+    <View
+      style={[
+        styles.row,
+        {
+          backgroundColor:
+            todo.priority === 'high' ? '#211417' : theme.colors.surface,
+          borderLeftColor: priorityColor[todo.priority],
+          opacity: todo.completed ? 0.72 : 1,
+        },
+      ]}>
+      <Pressable onPress={() => onToggle(todo)} style={styles.checkbox}>
+        <MaterialDesignIcons
+          name={
+            todo.completed ? 'check-circle' : 'checkbox-blank-circle-outline'
+          }
+          size={24}
+          color={todo.completed ? palette.primary : theme.colors.outline}
+        />
+      </Pressable>
       <View style={styles.textWrap}>
         <Text variant="titleMedium">{todo.title}</Text>
+        {todo.description ? (
+          <Text style={styles.description}>{todo.description}</Text>
+        ) : null}
         <Text style={styles.meta}>{formatReadableDate(todo.due_date)}</Text>
       </View>
       <Chip
@@ -30,13 +55,6 @@ const TodoItem = ({todo, onToggle, onEdit, onDelete}: Props) => {
         textStyle={styles.chipText}>
         {todo.priority}
       </Chip>
-      <Button
-        mode={todo.completed ? 'contained' : 'contained-tonal'}
-        compact
-        onPress={() => onToggle(todo)}
-        style={styles.actionButton}>
-        {todo.completed ? 'Done' : 'Complete'}
-      </Button>
       {onEdit ? (
         <IconButton icon="pencil-outline" onPress={() => onEdit(todo.id)} />
       ) : null}
@@ -50,11 +68,21 @@ const TodoItem = ({todo, onToggle, onEdit, onDelete}: Props) => {
 const styles = StyleSheet.create({
   row: {
     flexDirection: 'row',
-    alignItems: 'center',
-    gap: 4,
+    alignItems: 'flex-start',
+    gap: 8,
+    borderLeftWidth: 4,
+    borderRadius: 18,
+    padding: 14,
   },
   textWrap: {
     flex: 1,
+  },
+  checkbox: {
+    paddingTop: 2,
+  },
+  description: {
+    marginTop: 4,
+    opacity: 0.78,
   },
   meta: {
     marginTop: 4,
@@ -66,9 +94,6 @@ const styles = StyleSheet.create({
   chipText: {
     color: '#FFFFFF',
     textTransform: 'capitalize',
-  },
-  actionButton: {
-    marginRight: 4,
   },
 });
 

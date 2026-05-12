@@ -38,26 +38,46 @@ export const habitsRepository = {
     );
   },
 
-  async create(name: string, frequency: Habit['frequency']) {
+  async create(
+    name: string,
+    frequency: Habit['frequency'],
+    icon: string,
+    color: string,
+  ) {
     const habit: Habit = {
       id: createInsertId(),
       name,
       frequency,
+      icon,
+      color,
       created_at: createTimestamp(),
     };
 
     await databaseService.execute(
-      'INSERT INTO Habits (id, name, frequency, created_at) VALUES (?, ?, ?, ?)',
-      [habit.id, habit.name, habit.frequency, habit.created_at],
+      'INSERT INTO Habits (id, name, frequency, icon, color, created_at) VALUES (?, ?, ?, ?, ?, ?)',
+      [
+        habit.id,
+        habit.name,
+        habit.frequency,
+        habit.icon,
+        habit.color,
+        habit.created_at,
+      ],
     );
 
     return habit;
   },
 
-  async update(id: string, name: string, frequency: Habit['frequency']) {
+  async update(
+    id: string,
+    name: string,
+    frequency: Habit['frequency'],
+    icon: string,
+    color: string,
+  ) {
     await databaseService.execute(
-      'UPDATE Habits SET name = ?, frequency = ? WHERE id = ?',
-      [name, frequency, id],
+      'UPDATE Habits SET name = ?, frequency = ?, icon = ?, color = ? WHERE id = ?',
+      [name, frequency, icon, color, id],
     );
   },
 

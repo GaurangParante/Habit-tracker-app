@@ -10,6 +10,9 @@ export const achievementService = {
   }) {
     const unlockedAt = toLocalTimestamp();
     const achievements = await achievementsRepository.getAll();
+    const completedTodos = await databaseService.getScalar<number>(
+      'SELECT COUNT(*) as count FROM Todos WHERE completed = 1',
+    );
 
     const maybeUnlock = async (id: string, shouldUnlock: boolean) => {
       const achievement = achievements.find(item => item.id === id);
@@ -18,12 +21,20 @@ export const achievementService = {
       }
     };
 
+    await maybeUnlock(
+      ACHIEVEMENT_IDS.STARTED,
+      stats.totalCompletions >= 1 || (completedTodos ?? 0) >= 1,
+    );
     await maybeUnlock(ACHIEVEMENT_IDS.STREAK_3, stats.activeStreak >= 3);
     await maybeUnlock(ACHIEVEMENT_IDS.STREAK_7, stats.activeStreak >= 7);
+    await maybeUnlock(ACHIEVEMENT_IDS.STREAK_30, stats.activeStreak >= 30);
+    await maybeUnlock(ACHIEVEMENT_IDS.STREAK_100, stats.activeStreak >= 100);
     await maybeUnlock(
       ACHIEVEMENT_IDS.COMPLETIONS_30,
       stats.totalCompletions >= 30,
     );
+    await maybeUnlock(ACHIEVEMENT_IDS.TODOS_50, (completedTodos ?? 0) >= 50);
+    await maybeUnlock(ACHIEVEMENT_IDS.TODOS_100, (completedTodos ?? 0) >= 100);
   },
 
   async recalculateFromDatabase() {

@@ -1,6 +1,8 @@
 import React from 'react';
 import {StyleSheet, View} from 'react-native';
 import {Text, useTheme} from 'react-native-paper';
+import MaterialDesignIcons from '@react-native-vector-icons/material-design-icons';
+import {palette} from '@/theme/palette';
 
 type Props = {
   title: string;
@@ -19,6 +21,11 @@ const EmptyState = ({title, description}: Props) => {
           borderColor: theme.colors.outlineVariant,
         },
       ]}>
+      <MaterialDesignIcons
+        name="clipboard-text-outline"
+        size={26}
+        color={palette.textMuted}
+      />
       <Text variant="titleMedium">{title}</Text>
       <Text style={styles.description}>{description}</Text>
     </View>
@@ -32,6 +39,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     borderRadius: 20,
     borderWidth: 1,
+    gap: 8,
   },
   description: {
     marginTop: 6,

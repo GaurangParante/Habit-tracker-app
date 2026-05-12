@@ -25,6 +25,7 @@ export const habitService = {
   },
 
   async getStats(): Promise<HabitStats> {
+    const today = toLocalDateKey();
     const rows = await databaseService.query<{
       total: number;
       completed: number;
@@ -40,11 +41,39 @@ export const habitService = {
       : 0;
 
     const activeStreak = await this.getActiveStreak();
+    const bestStreak = await this.getBestStreak();
+    const todayRows = await databaseService.query<{count: number}>(
+      `SELECT
+         SUM(CASE WHEN completed = 1 THEN 1 ELSE 0 END) as count
+       FROM HabitLogs
+       WHERE date = ?`,
+      [today],
+    );
+    const totalHabits = await databaseService.getScalar<number>(
+      'SELECT COUNT(*) as count FROM Habits',
+    );
+    const pendingTodos = await databaseService.getScalar<number>(
+      'SELECT COUNT(*) as count FROM Todos WHERE completed = 0',
+    );
+    const completedTodos = await databaseService.getScalar<number>(
+      'SELECT COUNT(*) as count FROM Todos WHERE completed = 1',
+    );
+    const todayCompleted = todayRows[0]?.count ?? 0;
+    const totalTodos = (pendingTodos ?? 0) + (completedTodos ?? 0);
+    const habitScore = totalHabits ? todayCompleted / totalHabits : 0;
+    const todoScore = totalTodos ? (completedTodos ?? 0) / totalTodos : 0;
+    const productivityScore = Math.round(habitScore * 70 + todoScore * 30);
 
     return {
       completionRate,
       totalCompletions,
       activeStreak,
+      bestStreak,
+      todayCompleted,
+      totalHabits: totalHabits ?? 0,
+      pendingTodos: pendingTodos ?? 0,
+      completedTodos: completedTodos ?? 0,
+      productivityScore,
     };
   },
 
@@ -72,5 +101,40 @@ export const habitService = {
     }
 
     return streak;
+  },
+
+  async getBestStreak() {
+    const completedDates = await databaseService.query<{date: string}>(
+      `SELECT DISTINCT date
+       FROM HabitLogs
+       WHERE completed = 1
+       ORDER BY date ASC`,
+    );
+
+    if (!completedDates.length) {
+      return 0;
+    }
+
+    let best = 0;
+    let current = 0;
+    let previous: string | null = null;
+
+    completedDates.forEach(({date}) => {
+      if (!previous) {
+        current = 1;
+      } else if (shiftDateKey(previous, 1) === date) {
+        current += 1;
+      } else {
+        current = 1;
+      }
+
+      if (current > best) {
+        best = current;
+      }
+
+      previous = date;
+    });
+
+    return best;
   },
 };

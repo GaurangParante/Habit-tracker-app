@@ -8,6 +8,18 @@ export const todoService = {
       todosRepository.getAll(),
     ]);
 
-    return {todaysTodos, overdueTodos, allTodos};
+    return {
+      todaysTodos,
+      overdueTodos,
+      allTodos,
+      upcomingTodos: allTodos.filter(
+        todo =>
+          Boolean(todo.due_date) &&
+          !todo.completed &&
+          !todaysTodos.some(item => item.id === todo.id) &&
+          !overdueTodos.some(item => item.id === todo.id),
+      ),
+      completedTodos: allTodos.filter(todo => Boolean(todo.completed)),
+    };
   },
 };

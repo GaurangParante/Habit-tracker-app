@@ -54,10 +54,16 @@ export const todosRepository = {
     );
   },
 
-  async create(title: string, priority: TodoPriority, dueDate: string | null) {
+  async create(
+    title: string,
+    description: string | null,
+    priority: TodoPriority,
+    dueDate: string | null,
+  ) {
     const todo: Todo = {
       id: createInsertId(),
       title,
+      description,
       priority,
       due_date: dueDate,
       completed: 0,
@@ -65,10 +71,11 @@ export const todosRepository = {
     };
 
     await databaseService.execute(
-      'INSERT INTO Todos (id, title, priority, due_date, completed, created_at) VALUES (?, ?, ?, ?, ?, ?)',
+      'INSERT INTO Todos (id, title, description, priority, due_date, completed, created_at) VALUES (?, ?, ?, ?, ?, ?, ?)',
       [
         todo.id,
         todo.title,
+        todo.description,
         todo.priority,
         todo.due_date,
         todo.completed,
@@ -82,12 +89,13 @@ export const todosRepository = {
   async update(
     id: string,
     title: string,
+    description: string | null,
     priority: TodoPriority,
     dueDate: string | null,
   ) {
     await databaseService.execute(
-      'UPDATE Todos SET title = ?, priority = ?, due_date = ? WHERE id = ?',
-      [title, priority, dueDate, id],
+      'UPDATE Todos SET title = ?, description = ?, priority = ?, due_date = ? WHERE id = ?',
+      [title, description, priority, dueDate, id],
     );
   },
 

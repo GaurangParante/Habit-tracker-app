@@ -33,10 +33,9 @@ set APP_HOME=%DIRNAME%
 @rem Resolve any "." and ".." in APP_HOME to make it shorter.
 for %%i in ("%APP_HOME%") do set APP_HOME=%%~fi
 
-@rem Keep the project cache outside android\.gradle to avoid Windows rename failures in this workspace.
-set GRADLE_OPTS="-Dorg.gradle.projectcachedir=%APP_HOME%..\.gradle-project-cache" %GRADLE_OPTS%
-
 @rem Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.
+set GRADLE_USER_HOME=D:\gradle-user-home
+set GRADLE_OPTS="-Dorg.gradle.projectcachedir=D:\gradle-project-cache\HabitTrackerApp" %GRADLE_OPTS%
 set DEFAULT_JVM_OPTS="-Xmx64m" "-Xms64m"
 
 @rem Find java.exe

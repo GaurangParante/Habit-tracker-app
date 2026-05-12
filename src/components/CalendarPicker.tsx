@@ -83,15 +83,9 @@ const CalendarPicker = ({visible, value, onDismiss, onConfirm}: Props) => {
         <Dialog.Title>Select Date</Dialog.Title>
         <Dialog.Content>
           <View style={styles.headerRow}>
-            <IconButton
-              icon="chevron-left"
-              onPress={() => goMonth(-1)}
-            />
+            <IconButton icon="chevron-left" onPress={() => goMonth(-1)} />
             <Text variant="titleMedium">{monthLabel}</Text>
-            <IconButton
-              icon="chevron-right"
-              onPress={() => goMonth(1)}
-            />
+            <IconButton icon="chevron-right" onPress={() => goMonth(1)} />
           </View>
 
           <View style={styles.weekHeader}>
@@ -123,19 +117,17 @@ const CalendarPicker = ({visible, value, onDismiss, onConfirm}: Props) => {
                           backgroundColor: theme.colors.primary,
                         }
                       : isToday
-                        ? {
-                            borderColor: theme.colors.primary,
-                            borderWidth: 1,
-                          }
-                        : null,
+                      ? {
+                          borderColor: theme.colors.primary,
+                          borderWidth: 1,
+                        }
+                      : null,
                   ]}
                   onPress={() => onConfirm(dateKey)}>
                   <Text
                     style={[
                       styles.dayText,
-                      isSelected
-                        ? {color: theme.colors.onPrimary}
-                        : null,
+                      isSelected ? {color: theme.colors.onPrimary} : null,
                     ]}>
                     {date.getDate()}
                   </Text>

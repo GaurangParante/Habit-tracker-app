@@ -3,6 +3,8 @@ export const CREATE_TABLES = [
       id TEXT PRIMARY KEY,
       name TEXT NOT NULL,
       frequency TEXT NOT NULL,
+      icon TEXT NOT NULL DEFAULT 'target',
+      color TEXT NOT NULL DEFAULT '#10B981',
       created_at TEXT NOT NULL
     );`,
   `CREATE TABLE IF NOT EXISTS HabitLogs (
@@ -15,6 +17,7 @@ export const CREATE_TABLES = [
   `CREATE TABLE IF NOT EXISTS Todos (
       id TEXT PRIMARY KEY,
       title TEXT NOT NULL,
+      description TEXT,
       priority TEXT NOT NULL,
       due_date TEXT,
       completed INTEGER NOT NULL DEFAULT 0,
