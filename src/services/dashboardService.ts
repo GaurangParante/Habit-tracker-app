@@ -4,6 +4,7 @@ import {habitService} from './habitService';
 import {todoService} from './todoService';
 import {DashboardSnapshot} from '@/types/models';
 import {motivationalQuotes} from '@/utils/content';
+import {orderAchievements} from '@/utils/achievements';
 
 export const dashboardService = {
   async load(): Promise<DashboardSnapshot> {
@@ -18,7 +19,7 @@ export const dashboardService = {
     return {
       todayHabits,
       stats,
-      achievements: achievements.slice(0, 6),
+      achievements: orderAchievements(achievements).slice(0, 6),
       todaysTodos: todoSections.todaysTodos,
       overdueTodos: todoSections.overdueTodos,
       quote: motivationalQuotes[todayHabits.length % motivationalQuotes.length],

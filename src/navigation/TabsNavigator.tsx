@@ -1,4 +1,5 @@
 import React from 'react';
+import {StyleSheet, View} from 'react-native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import MaterialDesignIcons from '@react-native-vector-icons/material-design-icons';
 import {BottomTabParamList} from '@/types/navigation';
@@ -17,18 +18,19 @@ const TabsNavigator = () => {
       screenOptions={({route}) => ({
         headerShown: false,
         tabBarActiveTintColor: palette.primary,
-        tabBarInactiveTintColor: palette.textMuted,
+        tabBarInactiveTintColor: '#D0D2DA',
         tabBarStyle: {
           backgroundColor: palette.surface,
-          borderTopColor: palette.border,
+          borderTopColor: '#2A2D37',
           borderTopWidth: 1,
-          height: 72,
-          paddingTop: 6,
-          paddingBottom: 10,
+          height: 82,
+          paddingTop: 8,
+          paddingBottom: 14,
         },
         tabBarLabelStyle: {
           fontSize: 12,
           fontWeight: '600',
+          marginTop: -1,
         },
         tabBarIcon: ({color, size, focused}) => {
           const iconName =
@@ -42,8 +44,8 @@ const TabsNavigator = () => {
                 : 'flag-checkered'
               : route.name === 'Todos'
               ? focused
-                ? 'format-list-checks'
-                : 'format-list-checks'
+                ? 'checkbox-marked-outline'
+                : 'checkbox-marked-outline'
               : route.name === 'Statistics'
               ? focused
                 ? 'chart-box'
@@ -53,11 +55,17 @@ const TabsNavigator = () => {
               : 'cog-outline';
 
           return (
-            <MaterialDesignIcons
-              name={iconName as any}
-              size={size}
-              color={color}
-            />
+            <View
+              style={[
+                styles.tabIconWrap,
+                focused ? styles.tabIconWrapActive : null,
+              ]}>
+              <MaterialDesignIcons
+                name={iconName as any}
+                size={size}
+                color={color}
+              />
+            </View>
           );
         },
       })}>
@@ -73,5 +81,18 @@ const TabsNavigator = () => {
     </Tab.Navigator>
   );
 };
+
+const styles = StyleSheet.create({
+  tabIconWrap: {
+    width: 40,
+    height: 40,
+    borderRadius: 15,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  tabIconWrapActive: {
+    backgroundColor: '#153324',
+  },
+});
 
 export default TabsNavigator;

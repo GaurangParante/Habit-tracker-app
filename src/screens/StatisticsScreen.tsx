@@ -1,159 +1,279 @@
 import React, {useCallback, useMemo, useState} from 'react';
 import {StyleSheet, View} from 'react-native';
-import {Button, Text} from 'react-native-paper';
+import MaterialDesignIcons from '@react-native-vector-icons/material-design-icons';
+import {Text, useTheme} from 'react-native-paper';
 import {BottomTabScreenProps} from '@react-navigation/bottom-tabs';
 import {CompositeScreenProps} from '@react-navigation/native';
 import {NativeStackScreenProps} from '@react-navigation/native-stack';
 import ScreenContainer from '@/components/ScreenContainer';
-import SectionCard from '@/components/SectionCard';
-import StatTile from '@/components/StatTile';
-import {BottomTabParamList, RootStackParamList} from '@/types/navigation';
+import {BottomTabParamList} from '@/types/navigation';
 import {habitService} from '@/services/habitService';
-import {achievementsRepository} from '@/database/repositories/achievementsRepository';
-import {Achievement, HabitStats} from '@/types/models';
+import {HabitStats} from '@/types/models';
 import {useRefreshOnFocus} from '@/hooks/useRefreshOnFocus';
 import {palette} from '@/theme/palette';
 
 type Props = CompositeScreenProps<
   BottomTabScreenProps<BottomTabParamList, 'Statistics'>,
-  NativeStackScreenProps<RootStackParamList>
+  NativeStackScreenProps<any>
 >;
 
-const StatisticsScreen = ({navigation}: Props) => {
+const StatisticsScreen = (_: Props) => {
+  const theme = useTheme();
   const [stats, setStats] = useState<HabitStats | null>(null);
-  const [achievements, setAchievements] = useState<Achievement[]>([]);
+
+  const isDark = theme.dark;
+  const colors = {
+    card: isDark ? palette.surface : palette.lightSurface,
+    cardSoft: isDark ? '#1A1D26' : palette.lightSurfaceSoft,
+    border: isDark ? palette.border : palette.lightBorder,
+    text: isDark ? palette.text : palette.lightText,
+    muted: isDark ? '#C7BBAA' : palette.lightTextMuted,
+    chartBase: isDark ? '#212430' : palette.lightSurfaceMuted,
+  };
 
   const loadStatistics = useCallback(async () => {
-    const [statsSnapshot, achievementSnapshot] = await Promise.all([
-      habitService.getStats(),
-      achievementsRepository.getAll(),
-    ]);
+    const statsSnapshot = await habitService.getStats();
     setStats(statsSnapshot);
-    setAchievements(achievementSnapshot);
   }, []);
 
   useRefreshOnFocus(loadStatistics);
 
   const weeklyBars = useMemo(
     () => [
-      {day: 'Wed', value: 0.1},
-      {day: 'Thu', value: 0.18},
-      {day: 'Fri', value: 0.22},
-      {day: 'Sat', value: 0.1},
-      {day: 'Sun', value: 0.16},
-      {day: 'Mon', value: 0.24},
-      {day: 'Tue', value: Math.max((stats?.completionRate ?? 0) / 100, 0.08)},
+      {day: 'Wed', value: 0},
+      {day: 'Thu', value: 0},
+      {day: 'Fri', value: 0},
+      {day: 'Sat', value: 0},
+      {day: 'Sun', value: 0},
+      {day: 'Mon', value: 0},
+      {day: 'Tue', value: (stats?.completionRate ?? 0) / 100},
     ],
     [stats?.completionRate],
   );
 
-  return (
-    <ScreenContainer>
-      <Text variant="headlineLarge" style={styles.title}>
-        Statistics
-      </Text>
-      <Text style={styles.subtitle}>Your productivity insights</Text>
-      <SectionCard title="Overview">
-        <View style={styles.tiles}>
-          <StatTile
-            label="Current Streak"
-            value={`${stats?.activeStreak ?? 0}`}
-            icon="fire"
-            accent={palette.primary}
-          />
-          <StatTile
-            label="Best Streak"
-            value={`${stats?.bestStreak ?? 0}`}
-            icon="medal-outline"
-            accent={palette.warning}
-          />
-          <StatTile
-            label="Completion Rate"
-            value={`${stats?.completionRate ?? 0}%`}
-            icon="target"
-            accent={palette.purple}
-          />
-          <StatTile
-            label="Tasks Done"
-            value={`${stats?.completedTodos ?? 0}`}
-            icon="check-circle-outline"
-            accent={palette.primary}
-          />
-        </View>
-      </SectionCard>
+  const trendPoints = useMemo(
+    () => [13, 18, 23, 28, 3, 8].map(label => ({label: `${label}`})),
+    [],
+  );
 
-      <SectionCard title="Weekly Activity">
-        <View style={styles.chartRow}>
+  const statCards = [
+    {
+      icon: 'fire',
+      color: palette.primary,
+      value: `${stats?.activeStreak ?? 0}`,
+      label: 'CURRENT STREAK',
+    },
+    {
+      icon: 'medal-outline',
+      color: palette.warning,
+      value: `${stats?.bestStreak ?? 0}`,
+      label: 'BEST STREAK',
+    },
+    {
+      icon: 'target',
+      color: palette.purple,
+      value: `${stats?.completionRate ?? 0}%`,
+      label: 'COMPLETION RATE',
+    },
+    {
+      icon: 'check-circle-outline',
+      color: palette.primary,
+      value: `${stats?.completedTodos ?? 0}`,
+      label: 'TASKS DONE',
+    },
+  ];
+
+  return (
+    <ScreenContainer contentStyle={styles.content}>
+      <Text style={[styles.title, {color: colors.text}]}>Statistics</Text>
+      <Text style={[styles.subtitle, {color: colors.muted}]}>
+        Your productivity insights
+      </Text>
+
+      <View style={styles.tiles}>
+        {statCards.map(card => (
+          <View
+            key={card.label}
+            style={[
+              styles.tile,
+              {
+                backgroundColor: colors.card,
+                borderColor: colors.border,
+              },
+            ]}>
+            <MaterialDesignIcons
+              name={card.icon as any}
+              size={22}
+              color={card.color}
+            />
+            <Text style={[styles.tileValue, {color: colors.text}]}>
+              {card.value}
+            </Text>
+            <Text style={[styles.tileLabel, {color: colors.muted}]}>
+              {card.label}
+            </Text>
+          </View>
+        ))}
+      </View>
+
+      <View
+        style={[
+          styles.chartCard,
+          {
+            backgroundColor: colors.card,
+            borderColor: colors.border,
+          },
+        ]}>
+        <Text style={[styles.cardHeading, {color: colors.muted}]}>
+          WEEKLY ACTIVITY
+        </Text>
+        <View style={styles.weeklyChart}>
           {weeklyBars.map(bar => (
-            <View key={bar.day} style={styles.chartItem}>
-              <View style={styles.barTrack}>
-                <View
-                  style={[styles.barFill, {height: `${bar.value * 100}%`}]}
-                />
+            <View key={bar.day} style={styles.weekBarItem}>
+              <View
+                style={[
+                  styles.weekBarTrack,
+                  {backgroundColor: colors.chartBase},
+                ]}>
+                {bar.value > 0 ? (
+                  <View
+                    style={[
+                      styles.weekBarFill,
+                      {height: `${Math.max(bar.value, 0.06) * 100}%`},
+                    ]}
+                  />
+                ) : null}
               </View>
-              <Text style={styles.chartLabel}>{bar.day}</Text>
+              <Text style={[styles.axisLabel, {color: colors.muted}]}>
+                {bar.day}
+              </Text>
             </View>
           ))}
         </View>
-      </SectionCard>
+      </View>
 
-      <SectionCard title="Achievement Progress">
-        {achievements.slice(0, 4).map(item => (
-          <Text key={item.id} style={styles.achievementLine}>
-            {item.unlocked ? 'Unlocked' : 'Locked'} - {item.title}
-          </Text>
-        ))}
-        <Button onPress={() => navigation.navigate('Achievements')}>
-          Open Achievements
-        </Button>
-      </SectionCard>
+      <View
+        style={[
+          styles.chartCard,
+          {
+            backgroundColor: colors.card,
+            borderColor: colors.border,
+          },
+        ]}>
+        <Text style={[styles.cardHeading, {color: colors.muted}]}>
+          30-DAY HABIT TREND
+        </Text>
+        <View style={styles.trendWrap}>
+          <View
+            style={[styles.trendLine, {backgroundColor: palette.primary}]}
+          />
+          <View style={styles.trendLabels}>
+            {trendPoints.map(point => (
+              <Text
+                key={point.label}
+                style={[styles.axisLabel, {color: colors.muted}]}>
+                {point.label}
+              </Text>
+            ))}
+          </View>
+        </View>
+      </View>
     </ScreenContainer>
   );
 };
 
 const styles = StyleSheet.create({
+  content: {
+    paddingBottom: 100,
+  },
   title: {
+    fontSize: 25,
     fontWeight: '800',
   },
   subtitle: {
-    color: '#C9BFB1',
     marginTop: -10,
+    fontSize: 16,
   },
   tiles: {
     flexDirection: 'row',
-    gap: 10,
     flexWrap: 'wrap',
+    gap: 10,
   },
-  chartRow: {
+  tile: {
+    width: '48.5%',
+    minHeight: 92,
+    borderRadius: 14,
+    borderWidth: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: 10,
+    paddingVertical: 14,
+  },
+  tileValue: {
+    fontSize: 20,
+    fontWeight: '800',
+  },
+  tileLabel: {
+    fontSize: 11,
+    letterSpacing: 0.8,
+    fontWeight: '700',
+  },
+  chartCard: {
+    borderRadius: 14,
+    borderWidth: 1,
+    minHeight: 160,
+    padding: 14,
+  },
+  cardHeading: {
+    fontSize: 12,
+    letterSpacing: 0.9,
+    fontWeight: '800',
+    marginBottom: 18,
+  },
+  weeklyChart: {
+    flex: 1,
+    minHeight: 140,
     flexDirection: 'row',
     alignItems: 'flex-end',
     justifyContent: 'space-between',
-    minHeight: 180,
-    gap: 10,
+    gap: 8,
+    paddingHorizontal: 4,
   },
-  chartItem: {
+  weekBarItem: {
     flex: 1,
     alignItems: 'center',
+    justifyContent: 'flex-end',
     gap: 10,
   },
-  barTrack: {
-    width: '100%',
-    height: 140,
-    backgroundColor: palette.surfaceMuted,
-    borderRadius: 14,
+  weekBarTrack: {
+    width: 14,
+    height: 90,
+    borderRadius: 8,
     justifyContent: 'flex-end',
     overflow: 'hidden',
   },
-  barFill: {
+  weekBarFill: {
     width: '100%',
     backgroundColor: palette.primary,
-    borderRadius: 14,
+    borderRadius: 8,
   },
-  chartLabel: {
-    color: palette.textMuted,
+  axisLabel: {
+    fontSize: 11,
   },
-  achievementLine: {
-    color: palette.textMuted,
+  trendWrap: {
+    flex: 1,
+    justifyContent: 'flex-end',
+    minHeight: 120,
+  },
+  trendLine: {
+    height: 2,
+    borderRadius: 999,
+    marginHorizontal: 2,
+    marginBottom: 8,
+  },
+  trendLabels: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
   },
 });
 

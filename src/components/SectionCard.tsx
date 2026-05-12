@@ -1,6 +1,7 @@
 import React from 'react';
 import {StyleSheet, View} from 'react-native';
 import {Text, useTheme} from 'react-native-paper';
+import {palette} from '@/theme/palette';
 
 type Props = {
   title: string;
@@ -10,6 +11,7 @@ type Props = {
 
 const SectionCard = ({title, subtitle, children}: Props) => {
   const theme = useTheme();
+  const isDark = theme.dark;
 
   return (
     <View
@@ -17,14 +19,33 @@ const SectionCard = ({title, subtitle, children}: Props) => {
         styles.container,
         {
           backgroundColor: theme.colors.surface,
-          borderColor: theme.colors.outlineVariant,
+          borderColor: isDark ? theme.colors.outlineVariant : '#E6E2DB',
           shadowColor: '#000000',
+          shadowOpacity: isDark ? 0.16 : 0.09,
+          elevation: isDark ? 3 : 6,
         },
       ]}>
-      <Text variant="titleMedium" style={styles.title}>
+      <Text
+        variant="titleMedium"
+        style={[
+          styles.title,
+          {color: isDark ? theme.colors.onSurface : '#2E241D'},
+        ]}>
         {title}
       </Text>
-      {subtitle ? <Text style={styles.subtitle}>{subtitle}</Text> : null}
+      {subtitle ? (
+        <Text
+          style={[
+            styles.subtitle,
+            {
+              color: isDark
+                ? theme.colors.onSurfaceVariant
+                : palette.lightTextMuted,
+            },
+          ]}>
+          {subtitle}
+        </Text>
+      ) : null}
       <View style={styles.body}>{children}</View>
     </View>
   );
@@ -44,6 +65,7 @@ const styles = StyleSheet.create({
     textTransform: 'uppercase',
     fontSize: 12,
     letterSpacing: 1.2,
+    fontWeight: '800',
   },
   subtitle: {
     marginTop: 4,

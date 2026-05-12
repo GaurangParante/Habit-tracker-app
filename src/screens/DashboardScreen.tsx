@@ -1,15 +1,13 @@
 import React, {useCallback, useState} from 'react';
-import {StyleSheet, TextInput, View} from 'react-native';
+import {Pressable, StyleSheet, TextInput, View} from 'react-native';
 import MaterialDesignIcons from '@react-native-vector-icons/material-design-icons';
-import {IconButton, Text, TouchableRipple} from 'react-native-paper';
+import {Text, useTheme} from 'react-native-paper';
 import {BottomTabScreenProps} from '@react-navigation/bottom-tabs';
 import {CompositeScreenProps} from '@react-navigation/native';
 import {NativeStackScreenProps} from '@react-navigation/native-stack';
 import ScreenContainer from '@/components/ScreenContainer';
-import SectionCard from '@/components/SectionCard';
 import EmptyState from '@/components/EmptyState';
 import HabitItem from '@/components/HabitItem';
-import StatTile from '@/components/StatTile';
 import {dashboardService} from '@/services/dashboardService';
 import {habitService} from '@/services/habitService';
 import {BottomTabParamList, RootStackParamList} from '@/types/navigation';
@@ -25,8 +23,20 @@ type Props = CompositeScreenProps<
 >;
 
 const DashboardScreen = ({navigation}: Props) => {
+  const theme = useTheme();
   const [snapshot, setSnapshot] = useState<DashboardSnapshot | null>(null);
   const [taskTitle, setTaskTitle] = useState('');
+  const isDark = theme.dark;
+
+  const colors = {
+    title: isDark ? palette.text : palette.lightText,
+    date: '#C7BBAA',
+    quote: isDark ? palette.textMuted : '#92897D',
+    section: isDark ? '#C8BEAF' : '#CEC3B6',
+    quickInput: '#F3F4F8',
+    quickPlaceholder: '#8D91A0',
+    achievementText: '#9B9EAA',
+  };
 
   const loadDashboard = useCallback(async () => {
     const data = await dashboardService.load();
@@ -71,212 +81,272 @@ const DashboardScreen = ({navigation}: Props) => {
     );
   }
 
-  const todayLabel = formatReadableDate(toLocalDateKey());
-
   return (
-    <ScreenContainer contentStyle={{paddingBottom: 110}}>
+    <ScreenContainer contentStyle={styles.content}>
       <View style={styles.headerRow}>
         <View>
-          <Text variant="headlineLarge" style={styles.greeting}>
+          <Text style={[styles.greeting, {color: colors.title}]}>
             Good morning
           </Text>
-          <Text style={styles.date}>{todayLabel}</Text>
+          <Text style={[styles.date, {color: colors.date}]}>
+            {formatReadableDate(toLocalDateKey())}
+          </Text>
         </View>
-        <TouchableRipple
-          borderless
+        <Pressable
           style={styles.avatar}
           onPress={() => navigation.navigate('Settings')}>
           <Text style={styles.avatarText}>U</Text>
-        </TouchableRipple>
+        </Pressable>
       </View>
 
-      <Text style={styles.quote}>"{snapshot.quote}"</Text>
+      <Text style={[styles.quote, {color: colors.quote}]}>
+        "{snapshot.quote}"
+      </Text>
 
-      <SectionCard title="Momentum">
-        <View style={styles.momentumHeader}>
-          <Text style={styles.momentumPill}>
+      <View style={styles.momentumCard}>
+        <View style={styles.momentumTopRow}>
+          <Text style={[styles.sectionTitle, {color: colors.section}]}>
+            MOMENTUM
+          </Text>
+          <View style={styles.streakPill}>
             <MaterialDesignIcons
               name="fire"
               size={16}
               color={palette.primary}
-            />{' '}
-            {snapshot.stats.activeStreak} day streak
-          </Text>
+            />
+            <Text style={styles.streakPillText}>
+              {snapshot.stats.activeStreak} day streak
+            </Text>
+          </View>
         </View>
         <View style={styles.statsRow}>
-          <StatTile
-            label="Habits"
-            value={`${snapshot.stats.todayCompleted}/${snapshot.stats.totalHabits}`}
-            icon="bullseye-arrow"
-            accent={palette.primary}
-          />
-          <StatTile
-            label="Pending"
-            value={`${snapshot.stats.pendingTodos}`}
-            icon="check-circle-outline"
-            accent={palette.warning}
-          />
-          <StatTile
-            label="Score"
-            value={`${snapshot.stats.productivityScore}%`}
-            icon="trending-up"
-            accent={palette.purple}
-          />
-        </View>
-      </SectionCard>
-
-      <SectionCard title="Today's Habits">
-        {snapshot.todayHabits.length ? (
-          snapshot.todayHabits.map(habit => (
-            <HabitItem
-              key={habit.id}
-              habit={habit}
-              onToggle={handleToggleHabit}
-              onPress={() => navigation.navigate('Habits')}
+          <View style={styles.statBox}>
+            <MaterialDesignIcons
+              name="target"
+              size={22}
+              color={palette.primary}
             />
-          ))
-        ) : (
-          <EmptyState
-            title="No habits for today"
-            description="Create your first habit and start the streak."
-          />
-        )}
-      </SectionCard>
+            <Text style={styles.statValue}>
+              {snapshot.stats.todayCompleted}/{snapshot.stats.totalHabits}
+            </Text>
+            <Text style={styles.statLabel}>Habits</Text>
+          </View>
+          <View style={styles.statBox}>
+            <MaterialDesignIcons
+              name="check-circle-outline"
+              size={22}
+              color={palette.warning}
+            />
+            <Text style={styles.statValue}>{snapshot.stats.pendingTodos}</Text>
+            <Text style={styles.statLabel}>Pending</Text>
+          </View>
+          <View style={styles.statBox}>
+            <MaterialDesignIcons
+              name="trending-up"
+              size={22}
+              color={palette.purple}
+            />
+            <Text style={styles.statValue}>
+              {snapshot.stats.productivityScore}%
+            </Text>
+            <Text style={styles.statLabel}>Score</Text>
+          </View>
+        </View>
+      </View>
+
+      {snapshot.todayHabits.length ? (
+        <View>
+          <Text style={[styles.sectionTitle, {color: colors.section}]}>
+            TODAY&apos;S HABITS
+          </Text>
+          <View style={styles.listWrap}>
+            {snapshot.todayHabits.map(habit => (
+              <HabitItem
+                key={habit.id}
+                habit={habit}
+                onToggle={handleToggleHabit}
+                onPress={() => navigation.navigate('Habits')}
+              />
+            ))}
+          </View>
+        </View>
+      ) : null}
 
       <View>
-        <Text style={styles.sectionLabel}>QUICK ADD TASK</Text>
+        <Text style={[styles.sectionTitle, {color: colors.section}]}>
+          QUICK ADD TASK
+        </Text>
         <View style={styles.quickAdd}>
-          <IconButton
-            icon="plus"
-            iconColor={palette.textMuted}
-            onPress={handleQuickAdd}
-          />
+          <Pressable style={styles.plusButton} onPress={handleQuickAdd}>
+            <MaterialDesignIcons
+              name="plus"
+              size={24}
+              color={colors.quickInput}
+            />
+          </Pressable>
           <TextInput
             placeholder="Quick add a task..."
-            placeholderTextColor={palette.textMuted}
+            placeholderTextColor={colors.quickPlaceholder}
             value={taskTitle}
             onChangeText={setTaskTitle}
-            style={styles.quickInput}
+            style={[styles.quickInput, {color: colors.quickInput}]}
             onSubmitEditing={handleQuickAdd}
           />
         </View>
       </View>
 
-      {snapshot.overdueTodos.length ? (
-        <SectionCard title="Overdue">
-          {snapshot.overdueTodos.map(todo => (
-            <View key={todo.id} style={styles.overdueRow}>
-              <Text variant="titleMedium">{todo.title}</Text>
-              <Text style={styles.overdueMeta}>
-                {formatReadableDate(todo.due_date)}
-              </Text>
-            </View>
-          ))}
-        </SectionCard>
-      ) : null}
-
       <View>
-        <Text style={styles.sectionLabel}>ACHIEVEMENTS</Text>
+        <Text style={[styles.sectionTitle, {color: colors.section}]}>
+          ACHIEVEMENTS
+        </Text>
         <View style={styles.achievementGrid}>
           {snapshot.achievements.map(item => (
-            <TouchableRipple
+            <Pressable
               key={item.id}
               style={styles.achievementCard}
               onPress={() => navigation.navigate('Achievements')}>
-              <View style={styles.achievementInner}>
-                <MaterialDesignIcons
-                  name={item.unlocked ? 'shield-check' : 'lock-outline'}
-                  size={24}
-                  color={item.unlocked ? palette.primary : palette.textMuted}
-                />
-                <Text style={styles.achievementText}>{item.title}</Text>
-              </View>
-            </TouchableRipple>
+              <MaterialDesignIcons
+                name={item.unlocked ? 'shield-check' : 'lock-outline'}
+                size={24}
+                color={item.unlocked ? palette.primary : '#6F7280'}
+              />
+              <Text
+                style={[
+                  styles.achievementText,
+                  {color: colors.achievementText},
+                ]}>
+                {item.title}
+              </Text>
+            </Pressable>
           ))}
         </View>
       </View>
+
+      {!snapshot.todayHabits.length ? (
+        <EmptyState
+          title="No habits yet"
+          description="Create a habit from the habits tab to match the dashboard."
+        />
+      ) : null}
     </ScreenContainer>
   );
 };
 
 const styles = StyleSheet.create({
+  content: {
+    paddingBottom: 110,
+  },
   headerRow: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
+    marginTop: 4,
   },
   greeting: {
+    fontSize: 25,
     fontWeight: '800',
   },
   date: {
-    marginTop: 4,
-    color: '#C9BFB1',
+    marginTop: 6,
+    fontSize: 16,
   },
   avatar: {
     width: 44,
     height: 44,
     borderRadius: 22,
+    backgroundColor: palette.primaryDark,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: palette.primaryDark,
   },
   avatarText: {
     color: '#FFFFFF',
+    fontWeight: '800',
     fontSize: 18,
-    fontWeight: '700',
   },
   quote: {
-    color: palette.textMuted,
     fontStyle: 'italic',
-    fontSize: 24,
-    lineHeight: 32,
+    fontSize: 16,
+    marginTop: -4,
   },
-  momentumHeader: {
+  sectionTitle: {
+    fontSize: 13,
+    fontWeight: '800',
+    letterSpacing: 1.1,
+    marginBottom: 12,
+  },
+  momentumCard: {
+    backgroundColor: '#12341F',
+    borderColor: '#165B34',
+    borderWidth: 1,
+    borderRadius: 20,
+    padding: 18,
+  },
+  momentumTopRow: {
     flexDirection: 'row',
-    justifyContent: 'flex-end',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    marginBottom: 16,
   },
-  momentumPill: {
-    color: palette.primary,
-    backgroundColor: '#12371F',
-    overflow: 'hidden',
-    paddingHorizontal: 14,
-    paddingVertical: 8,
+  streakPill: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 6,
+    backgroundColor: '#1A542C',
     borderRadius: 999,
-    fontWeight: '700',
+    paddingHorizontal: 12,
+    paddingVertical: 8,
+  },
+  streakPillText: {
+    color: palette.primary,
+    fontWeight: '800',
+    fontSize: 12,
   },
   statsRow: {
     flexDirection: 'row',
     gap: 10,
   },
-  sectionLabel: {
-    color: '#C9BFB1',
+  statBox: {
+    flex: 1,
+    minHeight: 96,
+    borderRadius: 16,
+    backgroundColor: '#0F1F17',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: 8,
+    paddingVertical: 14,
+  },
+  statValue: {
+    color: palette.text,
+    fontWeight: '800',
     fontSize: 18,
-    fontWeight: '700',
-    letterSpacing: 0.8,
-    marginBottom: 12,
+  },
+  statLabel: {
+    color: '#C4C4C6',
+    fontSize: 12,
+  },
+  listWrap: {
+    gap: 10,
   },
   quickAdd: {
     flexDirection: 'row',
     alignItems: 'center',
+    backgroundColor: '#1A1D29',
     borderRadius: 16,
-    borderWidth: 1,
-    borderColor: palette.border,
-    backgroundColor: palette.surface,
-    paddingRight: 12,
+    paddingHorizontal: 10,
+    minHeight: 56,
+  },
+  plusButton: {
+    width: 36,
+    height: 36,
+    borderRadius: 12,
+    backgroundColor: '#20222D',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginRight: 10,
   },
   quickInput: {
     flex: 1,
-    color: palette.text,
     fontSize: 18,
-  },
-  overdueRow: {
-    borderLeftWidth: 3,
-    borderLeftColor: palette.danger,
-    paddingLeft: 12,
-    gap: 4,
-  },
-  overdueMeta: {
-    color: palette.warning,
   },
   achievementGrid: {
     flexDirection: 'row',
@@ -285,23 +355,17 @@ const styles = StyleSheet.create({
   },
   achievementCard: {
     width: '31%',
-    minHeight: 92,
-    borderRadius: 18,
-    backgroundColor: palette.surface,
-    borderWidth: 1,
-    borderColor: palette.border,
-  },
-  achievementInner: {
-    flex: 1,
+    minHeight: 82,
+    borderRadius: 14,
+    backgroundColor: '#1A1D29',
     alignItems: 'center',
     justifyContent: 'center',
     gap: 10,
     padding: 10,
   },
   achievementText: {
-    color: palette.textMuted,
-    textAlign: 'center',
     fontSize: 12,
+    textAlign: 'center',
   },
 });
 

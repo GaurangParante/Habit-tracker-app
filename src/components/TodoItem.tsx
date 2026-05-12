@@ -1,7 +1,7 @@
 import React, {memo} from 'react';
 import {Pressable, StyleSheet, View} from 'react-native';
 import MaterialDesignIcons from '@react-native-vector-icons/material-design-icons';
-import {Chip, IconButton, Text, useTheme} from 'react-native-paper';
+import {Text, useTheme} from 'react-native-paper';
 import {Todo} from '@/types/models';
 import {formatReadableDate} from '@/utils/date';
 import {palette} from '@/theme/palette';
@@ -47,19 +47,38 @@ const TodoItem = ({todo, onToggle, onEdit, onDelete}: Props) => {
         {todo.description ? (
           <Text style={styles.description}>{todo.description}</Text>
         ) : null}
-        <Text style={styles.meta}>{formatReadableDate(todo.due_date)}</Text>
+        <View style={styles.metaRow}>
+          <MaterialDesignIcons
+            name="calendar-blank-outline"
+            size={16}
+            color={palette.textMuted}
+          />
+          <Text style={styles.meta}>{formatReadableDate(todo.due_date)}</Text>
+        </View>
       </View>
-      <Chip
-        compact
-        style={[styles.chip, {backgroundColor: priorityColor[todo.priority]}]}
-        textStyle={styles.chipText}>
-        {todo.priority}
-      </Chip>
+      <View
+        style={[
+          styles.priorityDot,
+          {backgroundColor: priorityColor[todo.priority]},
+        ]}
+      />
       {onEdit ? (
-        <IconButton icon="pencil-outline" onPress={() => onEdit(todo.id)} />
+        <Pressable hitSlop={10} onPress={() => onEdit(todo.id)}>
+          <MaterialDesignIcons
+            name="pencil-outline"
+            size={20}
+            color={palette.textMuted}
+          />
+        </Pressable>
       ) : null}
       {onDelete ? (
-        <IconButton icon="delete-outline" onPress={() => onDelete(todo.id)} />
+        <Pressable hitSlop={10} onPress={() => onDelete(todo.id)}>
+          <MaterialDesignIcons
+            name="delete-outline"
+            size={20}
+            color={palette.textMuted}
+          />
+        </Pressable>
       ) : null}
     </View>
   );
@@ -84,16 +103,20 @@ const styles = StyleSheet.create({
     marginTop: 4,
     opacity: 0.78,
   },
+  metaRow: {
+    marginTop: 6,
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 6,
+  },
   meta: {
-    marginTop: 4,
     opacity: 0.68,
   },
-  chip: {
-    marginHorizontal: 8,
-  },
-  chipText: {
-    color: '#FFFFFF',
-    textTransform: 'capitalize',
+  priorityDot: {
+    width: 10,
+    height: 10,
+    borderRadius: 5,
+    marginTop: 10,
   },
 });
 

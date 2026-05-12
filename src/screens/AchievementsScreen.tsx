@@ -3,19 +3,19 @@ import {StyleSheet, View} from 'react-native';
 import MaterialDesignIcons from '@react-native-vector-icons/material-design-icons';
 import {Text} from 'react-native-paper';
 import ScreenContainer from '@/components/ScreenContainer';
-import SectionCard from '@/components/SectionCard';
 import {Achievement} from '@/types/models';
 import {achievementsRepository} from '@/database/repositories/achievementsRepository';
 import {useRefreshOnFocus} from '@/hooks/useRefreshOnFocus';
 import {formatReadableDate} from '@/utils/date';
 import {palette} from '@/theme/palette';
+import {getAchievementTitle, orderAchievements} from '@/utils/achievements';
 
 const AchievementsScreen = () => {
   const [achievements, setAchievements] = useState<Achievement[]>([]);
 
   const loadAchievements = useCallback(async () => {
     const items = await achievementsRepository.getAll();
-    setAchievements(items);
+    setAchievements(orderAchievements(items));
   }, []);
 
   useRefreshOnFocus(loadAchievements);
@@ -28,27 +28,28 @@ const AchievementsScreen = () => {
       <Text style={styles.subtitle}>Consistency unlocks everything</Text>
       <View style={styles.grid}>
         {achievements.map(achievement => (
-          <SectionCard
+          <View
             key={achievement.id}
-            title={achievement.unlocked ? 'Unlocked' : 'Locked'}>
-            <View style={styles.badgeBody}>
-              <MaterialDesignIcons
-                name={achievement.unlocked ? 'trophy-award' : 'lock-outline'}
-                size={28}
-                color={
-                  achievement.unlocked ? palette.primary : palette.textMuted
-                }
-              />
-              <Text variant="titleMedium">{achievement.title}</Text>
-              <Text style={styles.meta}>
-                {achievement.unlocked_at
-                  ? `Unlocked on ${formatReadableDate(
-                      achievement.unlocked_at.slice(0, 10),
-                    )}`
-                  : 'Keep stacking wins to unlock this badge.'}
-              </Text>
-            </View>
-          </SectionCard>
+            style={[
+              styles.card,
+              achievement.unlocked ? styles.cardUnlocked : null,
+            ]}>
+            <MaterialDesignIcons
+              name={achievement.unlocked ? 'shield-check' : 'lock-outline'}
+              size={24}
+              color={achievement.unlocked ? palette.primary : '#6F7280'}
+            />
+            <Text style={styles.badgeTitle}>
+              {getAchievementTitle(achievement)}
+            </Text>
+            <Text style={styles.meta}>
+              {achievement.unlocked_at
+                ? `Unlocked on ${formatReadableDate(
+                    achievement.unlocked_at.slice(0, 10),
+                  )}`
+                : 'Locked'}
+            </Text>
+          </View>
         ))}
       </View>
     </ScreenContainer>
@@ -64,15 +65,36 @@ const styles = StyleSheet.create({
     marginTop: -10,
   },
   grid: {
-    gap: 12,
-  },
-  badgeBody: {
-    alignItems: 'center',
+    flexDirection: 'row',
+    flexWrap: 'wrap',
     gap: 10,
   },
-  meta: {
+  card: {
+    width: '31%',
+    minHeight: 100,
+    borderRadius: 16,
+    borderWidth: 1,
+    borderColor: palette.border,
+    backgroundColor: palette.surface,
+    alignItems: 'center',
+    gap: 10,
+    justifyContent: 'center',
+    padding: 10,
+  },
+  cardUnlocked: {
+    backgroundColor: palette.primaryTint,
+    borderColor: '#165B34',
+  },
+  badgeTitle: {
     color: palette.textMuted,
     textAlign: 'center',
+    fontSize: 13,
+    fontWeight: '600',
+  },
+  meta: {
+    color: '#6F7280',
+    textAlign: 'center',
+    fontSize: 11,
   },
 });
 

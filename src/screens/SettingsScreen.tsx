@@ -1,5 +1,5 @@
 import React from 'react';
-import {Alert, StyleSheet, View} from 'react-native';
+import {Alert, Pressable, StyleSheet, View} from 'react-native';
 import MaterialDesignIcons from '@react-native-vector-icons/material-design-icons';
 import {
   List,
@@ -20,6 +20,7 @@ const SettingsScreen = () => {
   const dispatch = useAppDispatch();
   const mode = useAppSelector(state => state.theme.mode);
   const theme = useTheme();
+  const isDark = theme.dark;
 
   const handleToggleTheme = async () => {
     const nextMode = mode === 'dark' ? 'light' : 'dark';
@@ -29,36 +30,77 @@ const SettingsScreen = () => {
 
   return (
     <ScreenContainer>
-      <Text variant="headlineLarge" style={styles.title}>
+      <Text
+        variant="headlineLarge"
+        style={[
+          styles.title,
+          {color: isDark ? theme.colors.onSurface : '#111111'},
+        ]}>
         Settings
       </Text>
-      <Text style={styles.subtitle}>Manage your app</Text>
+      <Text style={[styles.subtitle, {color: isDark ? '#C9BFB1' : '#BDB4A8'}]}>
+        Manage your app
+      </Text>
       <SectionCard title="Account">
         <View
           style={[
             styles.accountCard,
-            {backgroundColor: theme.colors.surfaceVariant},
+            {
+              backgroundColor: isDark
+                ? theme.colors.surfaceVariant
+                : palette.lightSurfaceSoft,
+            },
           ]}>
           <View style={styles.avatar}>
             <Text style={styles.avatarText}>U</Text>
           </View>
-          <Text variant="titleLarge">User</Text>
+          <Text
+            variant="titleLarge"
+            style={{color: isDark ? theme.colors.onSurface : '#111111'}}>
+            User
+          </Text>
         </View>
       </SectionCard>
       <SectionCard title="Appearance">
-        <View
+        <Pressable
           style={[
             styles.settingRow,
-            {backgroundColor: theme.colors.surfaceVariant},
-          ]}>
+            {
+              backgroundColor: isDark
+                ? theme.colors.surfaceVariant
+                : palette.lightSurfaceSoft,
+            },
+          ]}
+          onPress={handleToggleTheme}>
+          <View style={styles.settingIcon}>
+            <MaterialDesignIcons
+              name={
+                mode === 'dark' ? 'moon-waning-crescent' : 'white-balance-sunny'
+              }
+              size={20}
+              color={palette.primary}
+            />
+          </View>
           <View style={styles.settingCopy}>
-            <Text variant="titleMedium">Enable dark mode</Text>
-            <Text style={styles.settingHint}>
-              Your preference is saved only on this device.
+            <Text
+              variant="titleMedium"
+              style={{color: isDark ? theme.colors.onSurface : '#111111'}}>
+              Dark mode
+            </Text>
+            <Text
+              style={[
+                styles.settingHint,
+                {color: isDark ? theme.colors.onSurfaceVariant : '#4E5562'},
+              ]}>
+              Toggle the app between dark and light themes.
             </Text>
           </View>
-          <Switch value={mode === 'dark'} onValueChange={handleToggleTheme} />
-        </View>
+          <Switch
+            value={mode === 'dark'}
+            onValueChange={handleToggleTheme}
+            color={palette.primary}
+          />
+        </Pressable>
       </SectionCard>
       <SectionCard title="Data">
         <TouchableRipple
@@ -88,11 +130,11 @@ const SettingsScreen = () => {
                 color={palette.danger}
               />
             </View>
-            <View style={{flex: 1}}>
-              <Text variant="titleMedium" style={{color: palette.danger}}>
+            <View style={styles.flexOne}>
+              <Text variant="titleMedium" style={styles.resetTitle}>
                 Reset All Data
               </Text>
-              <Text style={styles.settingHint}>
+              <Text style={[styles.settingHint, styles.resetHint]}>
                 Delete all habits, tasks, and progress
               </Text>
             </View>
@@ -103,6 +145,10 @@ const SettingsScreen = () => {
         <List.Item
           title="Habit Momentum"
           description="Version 1.0 - Build momentum every day."
+          titleStyle={{color: isDark ? theme.colors.onSurface : '#111111'}}
+          descriptionStyle={{
+            color: isDark ? theme.colors.onSurfaceVariant : '#4E5562',
+          }}
           left={() => (
             <View style={styles.appIcon}>
               <MaterialDesignIcons
@@ -154,12 +200,20 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     gap: 16,
   },
+  settingIcon: {
+    width: 42,
+    height: 42,
+    borderRadius: 14,
+    backgroundColor: palette.primaryTint,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
   settingCopy: {
     flex: 1,
   },
   settingHint: {
     marginTop: 4,
-    opacity: 0.72,
+    lineHeight: 20,
   },
   resetCard: {
     borderRadius: 18,
@@ -187,6 +241,15 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     backgroundColor: palette.primaryTint,
+  },
+  flexOne: {
+    flex: 1,
+  },
+  resetTitle: {
+    color: palette.danger,
+  },
+  resetHint: {
+    color: '#BAAEB3',
   },
 });
 
